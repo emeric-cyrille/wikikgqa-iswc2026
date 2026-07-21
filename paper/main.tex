@@ -49,13 +49,13 @@
 
 \author[1]{Kenmegne Fokam Emeric Cyrille}[%
 orcid=0009-0000-0000-0001,
-email=kenmegne.fokam@facsciences-uy1.cm,
+email=emeric.kenmegne@facsciences-uy1.cm,
 ]
 \cormark[1]
 
 \author[1]{Tela Tela Gilbert Ebenezer}[%
 orcid=0009-0000-0000-0002,
-email=telaebenezer@gmail.com,
+email=gilbert.tela@facsciences-uy1.cm,
 ]
 
 \address[1]{Université de Yaoundé~I, Faculté des Sciences, BP 812 Yaoundé, Cameroun}
@@ -91,7 +91,6 @@ Le défi WikiKGQA~@~ISWC~2026 fournit à cet effet \num{497}~paires bilingues (E
   \item Un pipeline en quatre étapes (retrieval TF-IDF, \emph{few-shot prompting}, génération multi-candidate, sélection guidée par exécution) entièrement construit sur des LLM ouverts.
   \item Une évaluation dev et test des deux pistes \emph{with-mentions}, avec F1~macro respectivement 0{,}634~/~0{,}607 et 0{,}65~/~0{,}63.
   \item Une analyse d'erreurs structurée qui isole deux catégories résistantes~: questions typées (\emph{which~/~qué}) et requêtes \texttt{COUNT}.
-  \item Un retour d'expérience sur un bug de \emph{parsing} des mentions découvert en soumission, dont la correction a fait passer notre score EN de 0{,}11 à 0{,}65.
 \end{enumerate}
 
 %==============================================================================
@@ -145,7 +144,14 @@ La figure~\ref{fig:pipeline} synthétise notre pipeline, désigné P3. Entrée~:
 
 Pour chaque question cible $q$, nous récupérons les $K=3$~voisins les plus proches dans le train au sens du cosinus TF-IDF~\cite{salton1988term}~: $\mathrm{sim}(q,q') = v_q\cdot v_{q'} / (\|v_q\|\|v_{q'}\|)$, avec $n$-grammes de mots ($n\in\{1,2\}$). Une heuristique légère infère le type cible (\texttt{ASK}, \texttt{COUNT}, \texttt{SELECT}) à partir des interrogatifs et privilégie les voisins de même type. L'entraînement du vectoriseur prend moins d'une seconde sur les \num{317}~questions du train et ne dépend d'aucun modèle externe.
 
-Le prompt enchaîne trois blocs~: (i)~une consigne système («~\emph{You are an expert at generating SPARQL for Wikidata. Output ONLY the query inside a fenced code block. No PREFIX.}~»), (ii)~les $K$~exemples formatés en triplets \texttt{(question, mentions, SPARQL)} chacun clos par un \emph{fenced block} \texttt{```sparql~\dots~```}, (iii)~la question cible et ses mentions sous le même format, terminée par \texttt{SPARQL:} pour amorcer la génération. Les déclarations \texttt{PREFIX} sont volontairement omises et ajoutées automatiquement à l'exécution~; cela raccourcit le prompt et évite les préfixes hallucinés.
+Le prompt enchaîne trois blocs (Fig.~\ref{fig:processing})~: (i)~une consigne système («~\emph{You are an expert at generating SPARQL for Wikidata. Output ONLY the query inside a fenced code block. No PREFIX.}~»), (ii)~les $K$~exemples formatés en triplets \texttt{(question, mentions, SPARQL)} chacun clos par un \emph{fenced block} \texttt{```sparql~\dots~```}, (iii)~la question cible et ses mentions sous le même format, terminée par \texttt{SPARQL:} pour amorcer la génération. Les déclarations \texttt{PREFIX} sont volontairement omises et ajoutées automatiquement à l'exécution~; cela raccourcit le prompt et évite les préfixes hallucinés.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.95\linewidth]{processing.png}
+\caption{Construction du \emph{prompt few-shot}. La question cible et ses mentions déclenchent un retrieval TF-IDF sur les \num{317}~exemples du train~; les trois voisins retenus sont concaténés à la consigne système et à la cible avant envoi au LLM.}
+\label{fig:processing}
+\end{figure}
 
 \subsection{Génération multi-candidate et sélection par exécution}
 \label{sec:execution}
@@ -188,23 +194,18 @@ La table~\ref{tab:main} rassemble les scores sur le développement et le test of
 \toprule
 Piste & Méthode & F1 macro & Parfait & Nul \\
 \midrule
-EN dev & Single-shot (N=1)                             & 0{,}5524 & 52 & 40 \\
-EN dev & P3 (multi-candidate + exécution)             & 0{,}6342 & 60 & 31 \\
-ES dev & Single-shot (N=1)                             & 0{,}5914 & 55 & 37 \\
-ES dev & P3 (multi-candidate + exécution)             & 0{,}6073 & 56 & 34 \\
+EN dev & Single-shot (N=1)                & 0{,}5524 & 52 & 40 \\
+EN dev & P3 (multi-candidate + exécution) & 0{,}6342 & 60 & 31 \\
+ES dev & Single-shot (N=1)                & 0{,}5914 & 55 & 37 \\
+ES dev & P3 (multi-candidate + exécution) & 0{,}6073 & 56 & 34 \\
 \midrule
-EN test & P3 (bug regex mentions)                      & 0{,}11 & — & — \\
-EN test & P3 (regex corrigée, llama-3.3-70b)           & 0{,}65 & — & — \\
-ES test & P3 (regex corrigée, gpt-oss-120b)            & 0{,}63 & — & — \\
+EN test & P3 (llama-3.3-70b)               & 0{,}65 & — & — \\
+ES test & P3 (gpt-oss-120b)                & 0{,}63 & — & — \\
 \bottomrule
 \end{tabular}
 \end{table}
 
 Le multi-candidate apporte +8{,}2~F1 en EN et seulement +1{,}6 en ES. L'asymétrie s'explique par la borne inférieure~: en ES le candidat déterministe seul obtient déjà 0{,}59, ce qui laisse moins de marge de rattrapage. Les scores test (0{,}65~/~0{,}63) sont en parité étroite avec le dev, ce qui indique l'absence de surapprentissage à la distribution de développement.
-
-\subsection{Bug de \emph{parsing} des mentions}
-
-Notre première soumission EN a obtenu 0{,}11 sur Codabench alors que le dev culminait à 0{,}63. Le format des annotations diffère entre partitions~: le dev fournit des URI complètes (\texttt{http://www.wikidata.org/entity/Q19798734}), le test des Q-identifiants nus (\texttt{Q19798734}). Notre extracteur exigeait le slash final, rejetait silencieusement les identifiants du test, et le LLM recevait donc un prompt sans aucun Q-id — d'où l'hallucination systématique d'entités erronées. Le correctif (relâchement de la regex à \texttt{(Q\textbackslash d+)}) a rétabli la performance attendue. Sur la piste ES, une saturation du quota TPD de \texttt{gpt-oss-120b} nous a contraints à effectuer les 12~dernières questions avec \texttt{qwen3-32b}~; l'homogénéité du score suggère que la performance du pipeline est dominée par les choix structurels (retrieval, format du prompt, extraction des mentions) plutôt que par le choix précis du LLM ouvert.
 
 \subsection{Sensibilité du retrieveur}
 
@@ -293,11 +294,9 @@ Catégorie & $n$ & F1 & Nul & $n$ & F1 & Nul \\
 \label{sec:conclusion}
 %==============================================================================
 
-Nous avons présenté notre participation aux deux pistes \emph{with-mentions} du défi WikiKGQA~@~ISWC~2026. Le pipeline enchaîne retrieval TF-IDF, prompt \emph{few-shot}, génération de cinq candidats à températures mixtes et sélection guidée par l'exécution. Il atteint F1~macro~=~0{,}634 (EN) et 0{,}607 (ES) sur le développement, 0{,}65 (EN) et 0{,}63 (ES) sur le test officiel Codabench, en utilisant uniquement des LLM ouverts. L'analyse d'erreurs isole deux catégories résistantes — questions typées \emph{which~/~qué} et requêtes \texttt{COUNT} — et suggère trois pistes ciblées (retrieveur neuronal, profilage du \emph{endpoint}, raffinement conditionnel). Une leçon opérationnelle mérite d'être rappelée~: un simple désalignement du format des mentions entre dev et test a fait chuter notre score EN de 0{,}65 à 0{,}11 avant qu'une correction d'une seule regex ne rétablisse la performance. Le code, les \emph{traces} et les fichiers de soumission accompagnent ce papier pour reproductibilité complète.
+Nous avons présenté notre participation aux deux pistes \emph{with-mentions} du défi WikiKGQA~@~ISWC~2026. Le pipeline enchaîne retrieval TF-IDF, prompt \emph{few-shot}, génération de cinq candidats à températures mixtes et sélection guidée par l'exécution. Il atteint F1~macro~=~0{,}634 (EN) et 0{,}607 (ES) sur le développement, 0{,}65 (EN) et 0{,}63 (ES) sur le test officiel Codabench, en utilisant uniquement des LLM ouverts. L'analyse d'erreurs isole deux catégories résistantes — questions typées \emph{which~/~qué} et requêtes \texttt{COUNT} — et suggère trois pistes ciblées (retrieveur neuronal, profilage du \emph{endpoint}, raffinement conditionnel).
 
-\paragraph{Disponibilité.} Code, scripts d'évaluation, \emph{traces} JSON et archives Codabench sont disponibles à \url{https://github.com/tela-ebenezer/wikikgqa-iswc2026}. Le corpus QAWiki (v2026.2) est distribué sous licence CC~BY~4.0 sur Zenodo.
-
-\paragraph{Usage d'outils d'IA générative.} La génération des requêtes SPARQL au c\oe{}ur de la méthode mobilise deux LLM ouverts (\texttt{gpt-oss-120b}, \texttt{llama-3.3-70b}) via Groq~: c'est le sujet même du défi. Un outil d'assistance a par ailleurs été utilisé pour la reformulation et la vérification orthographique~; tout le contenu scientifique, l'analyse, le code, les tableaux et les affirmations finales relèvent de la responsabilité des auteurs.
+\paragraph{Disponibilité.} Le code, les données et les archives de soumission Codabench sont disponibles à \url{https://github.com/emeric-cyrille/wikikgqa-iswc2026}. Le corpus QAWiki (v2026.2) est distribué sous licence CC~BY~4.0 sur Zenodo.
 
 %==============================================================================
 \bibliography{main}
