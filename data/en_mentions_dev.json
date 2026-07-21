@@ -1,0 +1,5972 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "sparql": "SELECT DISTINCT ?obj2 WHERE { wd:Q19798734 p:P161 ?obj1 . ?obj1 pq:P453 wd:Q27955792 . ?obj1 ps:P161 ?obj2 . }",
+      "answers": [
+        "Q25936414"
+      ],
+      "question": [
+        {
+          "string": "Who played Eleven in Stranger Things?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "Eleven",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q27955792"
+        },
+        {
+          "string": "Stranger Things",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q19798734"
+        },
+        {
+          "string": "played",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q222749",
+          "property": "http://www.wikidata.org/prop/P175",
+          "inverse": true
+        },
+        {
+          "string": "played",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q222749",
+          "property": "http://www.wikidata.org/prop/P161",
+          "inverse": true
+        },
+        {
+          "string": "Eleven",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q27955792"
+        },
+        {
+          "string": "Stranger Things",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q19798734"
+        },
+        {
+          "string": "interpretó",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q222749",
+          "property": "http://www.wikidata.org/prop/P175",
+          "inverse": true
+        },
+        {
+          "string": "interpretó",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q222749",
+          "property": "http://www.wikidata.org/prop/P453",
+          "inverse": true
+        },
+        {
+          "string": "personaje",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q95074",
+          "property": "http://www.wikidata.org/prop/P453"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "sparql": "SELECT ?sbj WHERE { ?sbj wdt:P31/wdt:P279* wd:Q3624078 . ?sbj wdt:P131*/wdt:P17?/wdt:P30? wd:Q15 . ?sbj wdt:P1082 ?pop . MINUS { ?sbj wdt:P576 ?obj } } ORDER BY DESC(?pop) LIMIT 1",
+      "answers": [
+        "Q1033"
+      ],
+      "question": [
+        {
+          "string": "What is the largest country in Africa by population?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "Africa",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q15",
+          "property": "http://www.wikidata.org/prop/P30",
+          "mention": "implicit"
+        },
+        {
+          "string": "country",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q3624078"
+        },
+        {
+          "string": "country",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q6256"
+        },
+        {
+          "string": "population",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q33829",
+          "property": "http://www.wikidata.org/prop/P1082"
+        },
+        {
+          "string": "África",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q15",
+          "property": "http://www.wikidata.org/prop/P30",
+          "mention": "implicit"
+        },
+        {
+          "string": "país",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q3624078"
+        },
+        {
+          "string": "país",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q6256"
+        },
+        {
+          "string": "población",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q33829",
+          "property": "http://www.wikidata.org/prop/P1082"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "sparql": "SELECT ?sbj WHERE { ?sbj wdt:P31/wdt:P279* wd:Q3624078 . ?sbj wdt:P131*/wdt:P17?/wdt:P30? wd:Q15 . ?sbj wdt:P2046 ?area . MINUS { ?sbj wdt:P576 ?obj } } ORDER BY DESC(?area) LIMIT 1",
+      "answers": [
+        "Q262"
+      ],
+      "question": [
+        {
+          "string": "What is the largest country in Africa by area?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "Africa",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q15",
+          "property": "http://www.wikidata.org/prop/P30",
+          "mention": "implicit"
+        },
+        {
+          "string": "country",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q3624078"
+        },
+        {
+          "string": "country",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q6256"
+        },
+        {
+          "string": "area",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q11500",
+          "property": "http://www.wikidata.org/prop/P2046"
+        },
+        {
+          "string": "África",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q15",
+          "property": "http://www.wikidata.org/prop/P30",
+          "mention": "implicit"
+        },
+        {
+          "string": "país",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q3624078"
+        },
+        {
+          "string": "país",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q6256"
+        },
+        {
+          "string": "área",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q11500",
+          "property": "http://www.wikidata.org/prop/P2046"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "sparql": "SELECT ?obj WHERE { wd:Q27 wdt:P36 ?obj }",
+      "answers": [
+        "Q1761"
+      ],
+      "question": [
+        {
+          "string": "What is the capital of Ireland?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "Ireland",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q27"
+        },
+        {
+          "string": "capital",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q5119",
+          "property": "http://www.wikidata.org/prop/P36"
+        },
+        {
+          "string": "Irlanda",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q27"
+        },
+        {
+          "string": "capital",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q5119",
+          "property": "http://www.wikidata.org/prop/P36"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "sparql": "SELECT ?obj WHERE { wd:Q3107329 wdt:P50 ?obj }",
+      "answers": [
+        "Q42"
+      ],
+      "question": [
+        {
+          "string": "Who wrote The Hitchhiker's Guide to the Galaxy?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "The Hitchhiker's Guide to the Galaxy",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q3107329"
+        },
+        {
+          "string": "wrote",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q2250012",
+          "property": "http://www.wikidata.org/prop/P50",
+          "inverse": true
+        },
+        {
+          "string": "wrote",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q36180",
+          "property": "http://www.wikidata.org/prop/P50",
+          "inverse": true
+        },
+        {
+          "string": "Guía del autoestopista galáctico",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q3107329"
+        },
+        {
+          "string": "autor",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q36180",
+          "property": "http://www.wikidata.org/prop/P50"
+        },
+        {
+          "string": "autor de",
+          "language": "es",
+          "property": "http://www.wikidata.org/prop/P50",
+          "inverse": true
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "sparql": "ASK WHERE { FILTER NOT EXISTS { wd:Q181900 wdt:P570 ?obj2 } }",
+      "answers": [
+        false
+      ],
+      "question": [
+        {
+          "string": "Is Stan Lee alive?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "Stan Lee",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q181900"
+        },
+        {
+          "string": "alive",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q21075715",
+          "property": "http://www.wikidata.org/prop/P570",
+          "quantifier": "not exists"
+        },
+        {
+          "string": "alive",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q21075715",
+          "property": "http://www.wikidata.org/prop/P20",
+          "quantifier": "not exists"
+        },
+        {
+          "string": "Stan Lee",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q181900"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "sparql": "ASK WHERE { wd:Q181900 wdt:P570 ?obj }",
+      "answers": [
+        true
+      ],
+      "question": [
+        {
+          "string": "Is Stan Lee dead?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "Stan Lee",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q181900"
+        },
+        {
+          "string": "dead",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q4",
+          "property": "http://www.wikidata.org/prop/P570",
+          "quantifier": "exists"
+        },
+        {
+          "string": "dead",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q4",
+          "property": "http://www.wikidata.org/prop/P20",
+          "quantifier": "exists"
+        },
+        {
+          "string": "Stan Lee",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q181900"
+        },
+        {
+          "string": "muerto",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q4",
+          "property": "http://www.wikidata.org/prop/P570",
+          "quantifier": "exists"
+        },
+        {
+          "string": "muerto",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q4",
+          "property": "http://www.wikidata.org/prop/P20",
+          "quantifier": "exists"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "sparql": "SELECT ?obj { wd:Q181900 wdt:P570 ?obj }",
+      "answers": [
+        "2018-11-12T00:00:00Z"
+      ],
+      "question": [
+        {
+          "string": "When did Stan Lee die?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "Stan Lee",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q181900"
+        },
+        {
+          "string": "die",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q4"
+        },
+        {
+          "string": "Stan Lee",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q181900"
+        },
+        {
+          "string": "murió",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q4"
+        },
+        {
+          "string": "Cuándo murió",
+          "language": "es",
+          "property": "http://www.wikidata.org/prop/P570"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "sparql": "SELECT (YEAR(?obj2)-YEAR(?obj1) - IF(MONTH(?obj2)>MONTH(?obj1),0,IF(MONTH(?obj2)=MONTH(?obj1) && DAY(?obj2)>=DAY(?obj1),0,1)) AS ?age) { wd:Q181900 wdt:P569 ?obj1 . wd:Q181900 wdt:P570 ?obj2 . }",
+      "answers": [
+        "95"
+      ],
+      "question": [
+        {
+          "string": "What age was Stan Lee when he died?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "Stan Lee",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q181900"
+        },
+        {
+          "string": "age",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q185836"
+        },
+        {
+          "string": "die",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q4",
+          "property": "http://www.wikidata.org/prop/P570"
+        },
+        {
+          "string": "died",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q4",
+          "property": "http://www.wikidata.org/prop/P570"
+        },
+        {
+          "string": "Stan Lee",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q181900"
+        },
+        {
+          "string": "años",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q577"
+        },
+        {
+          "string": "murió",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q4",
+          "property": "http://www.wikidata.org/prop/P570"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "sparql": "SELECT (YEAR(NOW())-YEAR(?obj) - IF(MONTH(NOW())>MONTH(?obj),0,IF(MONTH(NOW())=MONTH(?obj) && DAY(NOW())>=DAY(?obj),0,1)) AS ?age) { wd:Q181900 wdt:P569 ?obj . }",
+      "answers": [
+        "103"
+      ],
+      "question": [
+        {
+          "string": "What age is Stan Lee?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "Stan Lee",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q181900"
+        },
+        {
+          "string": "age",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q185836"
+        },
+        {
+          "string": "Stan Lee",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q181900"
+        },
+        {
+          "string": "años",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q577"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "sparql": "SELECT (YEAR(NOW())-YEAR(?obj) - IF(MONTH(NOW())>MONTH(?obj),0,IF(MONTH(NOW())=MONTH(?obj) && DAY(NOW())>=DAY(?obj),0,1)) AS ?age) { wd:Q181900 wdt:P569 ?obj . }",
+      "answers": [
+        "103"
+      ],
+      "question": [
+        {
+          "string": "What age would Stan Lee be if he were still alive?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "Stan Lee",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q181900"
+        },
+        {
+          "string": "age",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q185836"
+        },
+        {
+          "string": "alive",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q21075715"
+        },
+        {
+          "string": "Stan Lee",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q181900"
+        },
+        {
+          "string": "años",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q577"
+        },
+        {
+          "string": "vivo",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q21075715"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "sparql": "SELECT DISTINCT ?obj WHERE { ?sbj wdt:P31*/wdt:P279* wd:Q30461 . ?sbj wdt:P1001 wd:Q36 . ?sbj wdt:P1308 ?obj }",
+      "answers": [
+        "Q17704749"
+      ],
+      "question": [
+        {
+          "string": "Who is the president of Poland?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "president of Poland",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q1054799"
+        },
+        {
+          "string": "Poland",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q36"
+        },
+        {
+          "string": "president",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q30461",
+          "property": "http://www.wikidata.org/prop/P35",
+          "mention": "subproperty"
+        },
+        {
+          "string": "presidente de Polonia",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q1054799"
+        },
+        {
+          "string": "Polonia",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q36"
+        },
+        {
+          "string": "presidente",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q30461",
+          "property": "http://www.wikidata.org/prop/P35",
+          "mention": "subproperty"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "sparql": "ASK WHERE { ?sbj (wdt:P279|wdt:P31)* wd:Q30461 . ?sbj wdt:P1001 wd:Q36 }",
+      "answers": [
+        true
+      ],
+      "question": [
+        {
+          "string": "Does Poland have a president?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "Poland",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q36"
+        },
+        {
+          "string": "president",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q30461",
+          "property": "http://www.wikidata.org/prop/P1906",
+          "mention": "implicit"
+        },
+        {
+          "string": "Polonia",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q36"
+        },
+        {
+          "string": "presidente",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q30461",
+          "property": "http://www.wikidata.org/prop/P1906",
+          "mention": "implicit"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "sparql": "SELECT ?obj WHERE { wd:Q36 wdt:P35 ?obj }",
+      "answers": [
+        "Q17704749"
+      ],
+      "question": [
+        {
+          "string": "Who is the head of state of Poland?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "Poland",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q36"
+        },
+        {
+          "string": "head of state",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q48352",
+          "property": "http://www.wikidata.org/prop/P35"
+        },
+        {
+          "string": "Polonia",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q36"
+        },
+        {
+          "string": "jefe de estado",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q48352",
+          "property": "http://www.wikidata.org/prop/P35"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "sparql": "SELECT ( COUNT ( ?sbj ) AS ?value ) WHERE { ?sbj wdt:P166 wd:Q185667 . ?sbj wdt:P27 wd:Q40 . }",
+      "answers": [
+        "0"
+      ],
+      "question": [
+        {
+          "string": "How many Turing Awards have people from Austria won?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "Turing Awards",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q185667"
+        },
+        {
+          "string": "Austria",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q40"
+        },
+        {
+          "string": "people",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q5"
+        },
+        {
+          "string": "won",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q50000",
+          "property": "http://www.wikidata.org/prop/P166"
+        },
+        {
+          "string": "Awards",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q618779",
+          "property": "http://www.wikidata.org/prop/P166"
+        },
+        {
+          "string": "Turing",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q7251"
+        },
+        {
+          "string": "Premios Turing",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q185667"
+        },
+        {
+          "string": "Austria",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q40"
+        },
+        {
+          "string": "personas",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q5"
+        },
+        {
+          "string": "ganado",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q50000",
+          "property": "http://www.wikidata.org/prop/P166"
+        },
+        {
+          "string": "Premios",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q618779",
+          "property": "http://www.wikidata.org/prop/P166"
+        },
+        {
+          "string": "Turing",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q7251"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "sparql": "SELECT DISTINCT ?obj2 WHERE { ?sbj wdt:P3450 wd:Q19317 . ?sbj wdt:P3967?/wdt:P1346 ?obj1 . ?obj1 wdt:P17 ?obj2 . }",
+      "answers": [
+        "Q142",
+        "Q145",
+        "Q155",
+        "Q183",
+        "Q29",
+        "Q38",
+        "Q414",
+        "Q77"
+      ],
+      "question": [
+        {
+          "string": "Which countries have won a FIFA World Cup?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "FIFA World Cup",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q19317"
+        },
+        {
+          "string": "countries",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q6256"
+        },
+        {
+          "string": "countries",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q3624078"
+        },
+        {
+          "string": "FIFA",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q253414"
+        },
+        {
+          "string": "won",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q50000",
+          "property": "http://www.wikidata.org/prop/P1346"
+        },
+        {
+          "string": "Copa Mundial de FIFA",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q19317"
+        },
+        {
+          "string": "países",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q6256"
+        },
+        {
+          "string": "países",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q3624078"
+        },
+        {
+          "string": "FIFA",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q253414"
+        },
+        {
+          "string": "ganado",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q50000",
+          "property": "http://www.wikidata.org/prop/P1346"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "sparql": "SELECT DISTINCT ?obj2 WHERE { ?sbj wdt:P3450 wd:Q192202 . ?sbj wdt:P3967?/wdt:P1346 ?obj1 . ?obj1 wdt:P17 ?obj2 . }",
+      "answers": [
+        "Q11703",
+        "Q13353",
+        "Q145",
+        "Q244",
+        "Q25228",
+        "Q25305",
+        "Q26273",
+        "Q408",
+        "Q668",
+        "Q734",
+        "Q754",
+        "Q757",
+        "Q760",
+        "Q763",
+        "Q766",
+        "Q769",
+        "Q781",
+        "Q784",
+        "Q843",
+        "Q854"
+      ],
+      "question": [
+        {
+          "string": "Which countries have won a Cricket World Cup?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "countries",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q6256"
+        },
+        {
+          "string": "countries",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q3624078"
+        },
+        {
+          "string": "Cricket World Cup",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q192202"
+        },
+        {
+          "string": "Cricket",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q5375"
+        },
+        {
+          "string": "won",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q50000",
+          "property": "http://www.wikidata.org/prop/P1346"
+        },
+        {
+          "string": "países",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q6256"
+        },
+        {
+          "string": "países",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q3624078"
+        },
+        {
+          "string": "Copa Mundial de Críquet",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q192202"
+        },
+        {
+          "string": "Críquet",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q5375"
+        },
+        {
+          "string": "ganado",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q50000",
+          "property": "http://www.wikidata.org/prop/P1346"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "sparql": "SELECT DISTINCT ?obj2 WHERE { ?sbj wdt:P3450 wd:Q16640 . ?sbj wdt:P3967?/wdt:P1346 ?obj1 . ?obj1 wdt:P17 ?obj2 . }",
+      "answers": [
+        "Q145",
+        "Q258",
+        "Q408",
+        "Q664"
+      ],
+      "question": [
+        {
+          "string": "Which countries have won a Rugby World Cup?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "countries",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q6256"
+        },
+        {
+          "string": "countries",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q3624078"
+        },
+        {
+          "string": "Rugby World Cup",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q16640"
+        },
+        {
+          "string": "Rugby",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q5378"
+        },
+        {
+          "string": "won",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q50000",
+          "property": "http://www.wikidata.org/prop/P1346",
+          "inverse": true
+        },
+        {
+          "string": "países",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q6256"
+        },
+        {
+          "string": "países",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q3624078"
+        },
+        {
+          "string": "Copa Mundial de Rugby",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q16640"
+        },
+        {
+          "string": "Rugby",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q5378"
+        },
+        {
+          "string": "ganado",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q50000",
+          "property": "http://www.wikidata.org/prop/P1346",
+          "inverse": true
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "sparql": "SELECT DISTINCT ?obj WHERE { wd:Q846 wdt:P1082 ?obj }",
+      "answers": [
+        "2639211.0"
+      ],
+      "question": [
+        {
+          "string": "What is the population of Qatar?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "population",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q33829",
+          "property": "http://www.wikidata.org/prop/P1082"
+        },
+        {
+          "string": "Qatar",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q846"
+        },
+        {
+          "string": "población",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q33829",
+          "property": "http://www.wikidata.org/prop/P1082"
+        },
+        {
+          "string": "Catar",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q846"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "sparql": "SELECT ?obj WHERE { wd:Q28667972 wdt:P50 ?obj . }",
+      "answers": [
+        "Q2010"
+      ],
+      "question": [
+        {
+          "string": "Who is the author of the manga One Piece?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "One Piece",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q28667972"
+        },
+        {
+          "string": "manga",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q8274"
+        },
+        {
+          "string": "author",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q36180",
+          "property": "http://www.wikidata.org/prop/P50"
+        },
+        {
+          "string": "author of",
+          "language": "en",
+          "property": "http://www.wikidata.org/prop/P50",
+          "inverse": true
+        },
+        {
+          "string": "One Piece",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q28667972"
+        },
+        {
+          "string": "manga",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q8274"
+        },
+        {
+          "string": "autor",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q36180",
+          "property": "http://www.wikidata.org/prop/P50"
+        },
+        {
+          "string": "autor de",
+          "language": "es",
+          "property": "http://www.wikidata.org/prop/P50",
+          "inverse": true
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "sparql": "SELECT ?sbj WHERE { ?sbj wdt:P57 wd:Q3772 . ?sbj wdt:P31/wdt:P279* wd:Q11424 }",
+      "answers": [
+        "Q18225084",
+        "Q928019",
+        "Q72962",
+        "Q571032",
+        "Q47300912",
+        "Q431252",
+        "Q192115",
+        "Q104123",
+        "Q18126825",
+        "Q165325",
+        "Q153723",
+        "Q1137372",
+        "Q1137310",
+        "Q679023",
+        "Q137212522",
+        "Q117190377",
+        "Q1480733",
+        "Q122231483"
+      ],
+      "question": [
+        {
+          "string": "How many movies has Tarantino directed?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "Tarantino",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q3772"
+        },
+        {
+          "string": "movies",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q11424"
+        },
+        {
+          "string": "directed",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q2526255",
+          "property": "http://www.wikidata.org/prop/P57",
+          "inverse": true
+        },
+        {
+          "string": "Tarantino",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q3772"
+        },
+        {
+          "string": "películas",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q11424"
+        },
+        {
+          "string": "dirigido",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q2526255",
+          "property": "http://www.wikidata.org/prop/P57",
+          "inverse": true
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "sparql": "ASK WHERE { wd:Q60 wdt:P1082 ?num1 . wd:Q956 wdt:P1082 ?num2 . FILTER(?num1 > ?num2) }",
+      "answers": [
+        false
+      ],
+      "question": [
+        {
+          "string": "Is New York bigger than Beijing in terms of population?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "New York",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q60"
+        },
+        {
+          "string": "Beijing",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q956"
+        },
+        {
+          "string": "population",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q33829",
+          "property": "http://www.wikidata.org/prop/P1082"
+        },
+        {
+          "string": "Nueva York",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q60"
+        },
+        {
+          "string": "Pekín",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q956"
+        },
+        {
+          "string": "población",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q33829",
+          "property": "http://www.wikidata.org/prop/P1082"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "sparql": "ASK WHERE { wd:Q60 wdt:P2046 ?num1 . wd:Q956 wdt:P2046 ?num2 . FILTER(?num1 > ?num2) }",
+      "answers": [
+        false
+      ],
+      "question": [
+        {
+          "string": "Is New York bigger than Beijing in terms of area?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "New York",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q60"
+        },
+        {
+          "string": "Beijing",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q956"
+        },
+        {
+          "string": "area",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q11500",
+          "property": "http://www.wikidata.org/prop/P2046"
+        },
+        {
+          "string": "Nueva York",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q60"
+        },
+        {
+          "string": "Pekín",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q956"
+        },
+        {
+          "string": "área",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q11500",
+          "property": "http://www.wikidata.org/prop/P2046"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "sparql": "ASK WHERE { wd:Q38111 wdt:P569 ?value1 . wd:Q185140 wdt:P569 ?value2 . FILTER ( ?value1 < ?value2 ) }",
+      "answers": [
+        false
+      ],
+      "question": [
+        {
+          "string": "Is Leonardo DiCaprio older than Joaquin Phoenix?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "Leonardo DiCaprio",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q38111"
+        },
+        {
+          "string": "Joaquin Phoenix",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q185140"
+        },
+        {
+          "string": "older",
+          "language": "en",
+          "property": "http://www.wikidata.org/prop/P569"
+        },
+        {
+          "string": "Leonardo DiCaprio",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q38111"
+        },
+        {
+          "string": "Joaquin Phoenix",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q185140"
+        },
+        {
+          "string": "mayor",
+          "language": "es",
+          "property": "http://www.wikidata.org/prop/P569"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "sparql": "SELECT ?obj WHERE { wd:Q160112 wdt:P17 ?obj . }",
+      "answers": [
+        "Q29"
+      ],
+      "question": [
+        {
+          "string": "In which country is the Museo del Prado located?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "Museo del Prado",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q160112"
+        },
+        {
+          "string": "country",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q3624078"
+        },
+        {
+          "string": "located",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q2221906",
+          "property": "http://www.wikidata.org/prop/P17"
+        },
+        {
+          "string": "Museo del Prado",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q160112"
+        },
+        {
+          "string": "país",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q3624078"
+        },
+        {
+          "string": "ubicado",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q2221906",
+          "property": "http://www.wikidata.org/prop/P17"
+        },
+        {
+          "string": "está",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q2221906",
+          "property": "http://www.wikidata.org/prop/P17"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "sparql": "SELECT ?obj WHERE { wd:Q569978 wdt:P571 ?obj . }",
+      "answers": [
+        "1966-08-05T00:00:00Z"
+      ],
+      "question": [
+        {
+          "string": "When did Caesars Palace open?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "Caesars Palace",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q569978"
+        },
+        {
+          "string": "open",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q15051339",
+          "property": "http://www.wikidata.org/prop/P571"
+        },
+        {
+          "string": "Caesars Palace",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q569978"
+        },
+        {
+          "string": "abrió",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q15051339",
+          "property": "http://www.wikidata.org/prop/P571"
+        },
+        {
+          "string": "Cuándo abrió",
+          "language": "es",
+          "property": "http://www.wikidata.org/prop/P571"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "sparql": "SELECT ?obj WHERE { wd:Q91 wdt:P102 ?obj }",
+      "answers": [
+        "Q29468",
+        "Q42183",
+        "Q80719"
+      ],
+      "question": [
+        {
+          "string": "Which political parties was Abraham Lincoln a member of?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "Abraham Lincoln",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q91"
+        },
+        {
+          "string": "political parties",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q7278"
+        },
+        {
+          "string": "member",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q9200127",
+          "property": "http://www.wikidata.org/prop/P463",
+          "inverse": true
+        },
+        {
+          "string": "member of",
+          "language": "en",
+          "property": "http://www.wikidata.org/prop/P463"
+        },
+        {
+          "string": "Abraham Lincoln",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q91"
+        },
+        {
+          "string": "partidos políticos",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q7278"
+        },
+        {
+          "string": "miembro",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q9200127",
+          "property": "http://www.wikidata.org/prop/P463",
+          "inverse": true
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "sparql": "SELECT ?sbj WHERE { ?sbj wdt:P180 wd:Q503 . ?sbj wdt:P31/wdt:P279* wd:Q3305213 }",
+      "answers": [
+        "Q99855137",
+        "Q102192205",
+        "Q76997874",
+        "Q61444184",
+        "Q548141",
+        "Q49252391",
+        "Q47688755",
+        "Q3204088",
+        "Q26838163",
+        "Q20198024",
+        "Q19924778",
+        "Q18918134",
+        "Q17494397",
+        "Q17493299",
+        "Q17492929",
+        "Q136304388",
+        "Q135874124"
+      ],
+      "question": [
+        {
+          "string": "Which paintings feature a banana?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "banana",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q503"
+        },
+        {
+          "string": "paintings",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q3305213"
+        },
+        {
+          "string": "feature",
+          "language": "en",
+          "property": "http://www.wikidata.org/prop/P180"
+        },
+        {
+          "string": "plátano",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q503"
+        },
+        {
+          "string": "cuadros",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q3305213"
+        },
+        {
+          "string": "tienen",
+          "language": "es",
+          "property": "http://www.wikidata.org/prop/P180"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "sparql": "ASK WHERE { ?obj wdt:P31 wd:Q186516 . ?obj wdt:P462 wd:Q429220 }",
+      "answers": [
+        false
+      ],
+      "question": [
+        {
+          "string": "Do any national flags use pink?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "national flags",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q186516"
+        },
+        {
+          "string": "pink",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q429220"
+        },
+        {
+          "string": "flag",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q14660"
+        },
+        {
+          "string": "bandera nacional",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q186516"
+        },
+        {
+          "string": "rosa",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q429220"
+        },
+        {
+          "string": "bandera",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q14660"
+        },
+        {
+          "string": "con el color",
+          "language": "es",
+          "property": "http://www.wikidata.org/prop/P462"
+        },
+        {
+          "string": "color",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q1075"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "sparql": "SELECT ?obj WHERE { wd:Q207867 wdt:P570 ?obj }",
+      "answers": [
+        "1980-05-18T00:00:00Z"
+      ],
+      "question": [
+        {
+          "string": "When did Ian Curtis commit suicide?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "Ian Curtis",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q207867"
+        },
+        {
+          "string": "suicide",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q10737",
+          "property": "http://www.wikidata.org/prop/P570",
+          "mention": "implicit"
+        },
+        {
+          "string": "Ian Curtis",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q207867"
+        },
+        {
+          "string": "suicidó",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q10737",
+          "property": "http://www.wikidata.org/prop/P570",
+          "mention": "implicit"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "sparql": "ASK WHERE { wd:Q207867 wdt:P1196 wd:Q10737 }",
+      "answers": [
+        true
+      ],
+      "question": [
+        {
+          "string": "Did Ian Curtis commit suicide?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "Ian Curtis",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q207867"
+        },
+        {
+          "string": "suicide",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q10737"
+        },
+        {
+          "string": "suicidó",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q10737"
+        },
+        {
+          "string": "Ian Curtis",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q207867"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "sparql": "SELECT ?obj { wd:Q207867 wdt:P570 ?obj }",
+      "answers": [
+        "1980-05-18T00:00:00Z"
+      ],
+      "question": [
+        {
+          "string": "When did Ian Curtis die?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "Ian Curtis",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q207867"
+        },
+        {
+          "string": "die",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q4"
+        },
+        {
+          "string": "Ian Curtis",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q207867"
+        },
+        {
+          "string": "murió",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q4"
+        },
+        {
+          "string": "Cuándo murió",
+          "language": "es",
+          "property": "http://www.wikidata.org/prop/P570"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "sparql": "ASK WHERE { wd:Q207867 wdt:P570 ?obj }",
+      "answers": [
+        true
+      ],
+      "question": [
+        {
+          "string": "Is Ian Curtis dead?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "Ian Curtis",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q207867"
+        },
+        {
+          "string": "dead",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q4",
+          "property": "http://www.wikidata.org/prop/P570"
+        },
+        {
+          "string": "Ian Curtis",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q207867"
+        },
+        {
+          "string": "muerto",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q4",
+          "property": "http://www.wikidata.org/prop/P570"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "sparql": "SELECT ?sbj WHERE { ?sbj wdt:P161 wd:Q41163 . ?sbj wdt:P161 wd:Q36949 . ?sbj wdt:P31/wdt:P279* wd:Q11424 }",
+      "answers": [
+        "Q184768",
+        "Q29057443",
+        "Q42198",
+        "Q4243278",
+        "Q477624",
+        "Q1550654",
+        "Q77852299",
+        "Q1196157"
+      ],
+      "question": [
+        {
+          "string": "In which movies did Al Pacino and Robert de Niro appear together?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "Al Pacino",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q41163"
+        },
+        {
+          "string": "Robert de Niro",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q36949"
+        },
+        {
+          "string": "movies",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q11424"
+        },
+        {
+          "string": "Pacino",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q41163"
+        },
+        {
+          "string": "de Niro",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q36949"
+        },
+        {
+          "string": "appear",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q222749",
+          "property": "http://www.wikidata.org/prop/P161",
+          "inverse": true
+        },
+        {
+          "string": "movie",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q11424"
+        },
+        {
+          "string": "Al Pacino",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q41163"
+        },
+        {
+          "string": "Robert de Niro",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q36949"
+        },
+        {
+          "string": "películas",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q11424"
+        },
+        {
+          "string": "Pacino",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q41163"
+        },
+        {
+          "string": "de Niro",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q36949"
+        },
+        {
+          "string": "aparecen",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q222749",
+          "property": "http://www.wikidata.org/prop/P161",
+          "inverse": true
+        },
+        {
+          "string": "película",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q11424"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "sparql": "SELECT ?obj1 WHERE { ?sbj wdt:P31/wdt:P279* wd:Q3624078 . ?sbj wdt:P35 ?obj1 . ?obj1 wdt:P569 ?obj2 . FILTER(!isBlank(?obj2)) } ORDER BY DESC(?obj2) LIMIT 1",
+      "answers": [
+        "Q113989189"
+      ],
+      "question": [
+        {
+          "string": "Who is the youngest head of state in the world?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "world",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q2"
+        },
+        {
+          "string": "head of state",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q48352",
+          "property": "http://www.wikidata.org/prop/P35"
+        },
+        {
+          "string": "youngest",
+          "language": "en",
+          "property": "http://www.wikidata.org/prop/P569",
+          "superlative": "max"
+        },
+        {
+          "string": "mundo",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q2"
+        },
+        {
+          "string": "jefe de estado",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q48352",
+          "property": "http://www.wikidata.org/prop/P35"
+        },
+        {
+          "string": "más joven",
+          "language": "es",
+          "property": "http://www.wikidata.org/prop/P569",
+          "superlative": "max"
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "sparql": "SELECT (COUNT(?sbj) AS ?count) WHERE { ?sbj wdt:P69 wd:Q49108 . ?sbj wdt:P106 wd:Q11631 }",
+      "answers": [
+        "49"
+      ],
+      "question": [
+        {
+          "string": "How many astronauts studied at MIT?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "astronauts",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q11631"
+        },
+        {
+          "string": "MIT",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q49108"
+        },
+        {
+          "string": "studied",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q9347372",
+          "property": "http://www.wikidata.org/prop/P69"
+        },
+        {
+          "string": "studied at",
+          "language": "en",
+          "property": "http://www.wikidata.org/prop/P69"
+        },
+        {
+          "string": "astronautas",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q11631"
+        },
+        {
+          "string": "MIT",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q49108"
+        },
+        {
+          "string": "estudiaron",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q9347372",
+          "property": "http://www.wikidata.org/prop/P69"
+        },
+        {
+          "string": "estudiaron en",
+          "language": "es",
+          "property": "http://www.wikidata.org/prop/P69"
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "sparql": "SELECT ?obj WHERE { ?sbj wdt:P31/wdt:P279* wd:Q44559 . ?sbj wdt:P575 ?obj } ORDER BY ?obj LIMIT 1",
+      "answers": [
+        "1991-01-01T00:00:00Z"
+      ],
+      "question": [
+        {
+          "string": "When was the first exoplanet discovered?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "exoplanet",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q44559"
+        },
+        {
+          "string": "discovered",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q12772819",
+          "property": "http://www.wikidata.org/prop/P575"
+        },
+        {
+          "string": "exoplaneta",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q44559"
+        },
+        {
+          "string": "descubierto",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q12772819",
+          "property": "http://www.wikidata.org/prop/P575"
+        },
+        {
+          "string": "Cuándo fue descubierto",
+          "language": "es",
+          "property": "http://www.wikidata.org/prop/P575"
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "sparql": "SELECT ?sbj WHERE { ?sbj wdt:P138 wd:Q9696 . ?sbj wdt:P31/wdt:P279* wd:Q41176 . }",
+      "answers": [
+        "Q6232375",
+        "Q134462120",
+        "Q2900611",
+        "Q6232341",
+        "Q48821",
+        "Q125537532",
+        "Q3373041",
+        "Q134769936",
+        "Q125537532",
+        "Q1631981",
+        "Q125537532",
+        "Q105229531",
+        "Q77418352",
+        "Q6232341",
+        "Q8685",
+        "Q8685"
+      ],
+      "question": [
+        {
+          "string": "What buildings are named after JFK?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "buildings",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q41176"
+        },
+        {
+          "string": "JFK",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q9696"
+        },
+        {
+          "string": "named after",
+          "language": "en",
+          "property": "http://www.wikidata.org/prop/P138"
+        },
+        {
+          "string": "named",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q82799",
+          "property": "http://www.wikidata.org/prop/P138"
+        },
+        {
+          "string": "edificios",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q41176"
+        },
+        {
+          "string": "JFK",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q9696"
+        },
+        {
+          "string": "deben sus nombres a",
+          "language": "es",
+          "property": "http://www.wikidata.org/prop/P138"
+        },
+        {
+          "string": "nombres",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q82799",
+          "property": "http://www.wikidata.org/prop/P138"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "sparql": "SELECT ?obj WHERE { wd:Q607742 wdt:P577 ?obj }",
+      "answers": [
+        "1968-01-01T00:00:00Z"
+      ],
+      "question": [
+        {
+          "string": "When was Hey Jude released?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "Hey Jude",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q607742"
+        },
+        {
+          "string": "released",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q2031291",
+          "property": "http://www.wikidata.org/prop/P577"
+        },
+        {
+          "string": "released",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q732577",
+          "property": "http://www.wikidata.org/prop/P577"
+        },
+        {
+          "string": "Hey Jude",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q607742"
+        },
+        {
+          "string": "lanzó",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q2031291",
+          "property": "http://www.wikidata.org/prop/P577"
+        },
+        {
+          "string": "lanzó",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q732577",
+          "property": "http://www.wikidata.org/prop/P577"
+        },
+        {
+          "string": "Cuándo se lanzó",
+          "language": "es",
+          "property": "http://www.wikidata.org/prop/P577"
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "sparql": "SELECT ?sbj WHERE { ?sbj wdt:P36 ?obj1 . ?sbj wdt:P31/wdt:P279* wd:Q3624078 . MINUS { ?sbj wdt:P582|wdt:P576 ?obj2 } } GROUP BY ?sbj HAVING(COUNT(DISTINCT ?obj1) >= 2)",
+      "answers": [
+        "Q1050",
+        "Q219060",
+        "Q236",
+        "Q258",
+        "Q710",
+        "Q750",
+        "Q805",
+        "Q854"
+      ],
+      "question": [
+        {
+          "string": "Which countries currently have multiple capitals?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "countries",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q3624078"
+        },
+        {
+          "string": "countries",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q6256"
+        },
+        {
+          "string": "capitals",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q5119",
+          "property": "http://www.wikidata.org/prop/P36"
+        },
+        {
+          "string": "capital",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q5119",
+          "property": "http://www.wikidata.org/prop/P36"
+        },
+        {
+          "string": "países",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q3624078"
+        },
+        {
+          "string": "países",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q6256"
+        },
+        {
+          "string": "capitales",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q5119",
+          "property": "http://www.wikidata.org/prop/P36"
+        },
+        {
+          "string": "capital",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q5119",
+          "property": "http://www.wikidata.org/prop/P36"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "sparql": "SELECT DISTINCT ?sbj { ?sbj wdt:P31/wdt:P279* wd:Q7889 . ?sbj wdt:P31?/wdt:P10374 wd:Q215206 . }",
+      "answers": [
+        "Q126194",
+        "Q17286",
+        "Q2120242",
+        "Q212785",
+        "Q240004",
+        "Q3319319",
+        "Q4050885",
+        "Q477458",
+        "Q71910",
+        "Q835894"
+      ],
+      "question": [
+        {
+          "string": "Which video games are known to be NP-complete?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "video games",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q7889"
+        },
+        {
+          "string": "NP-complete",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q215206"
+        },
+        {
+          "string": "videojuegos",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q7889"
+        },
+        {
+          "string": "NP-completo",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q215206"
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P31/wdt:P279* wd:Q3624078 . ?sbj wdt:P138 ?obj . ?obj (wdt:P31/wdt:P279*)|(wdt:P171+) wd:Q756 . }",
+      "answers": [
+        "Q155"
+      ],
+      "question": [
+        {
+          "string": "Which countries are named after plants?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "countries",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q3624078"
+        },
+        {
+          "string": "plants",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q756"
+        },
+        {
+          "string": "named after",
+          "language": "en",
+          "property": "http://www.wikidata.org/prop/P138"
+        },
+        {
+          "string": "named",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q82799",
+          "property": "http://www.wikidata.org/prop/P138"
+        },
+        {
+          "string": "países",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q3624078"
+        },
+        {
+          "string": "planta",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q756"
+        },
+        {
+          "string": "deben su nombre a",
+          "language": "es",
+          "property": "http://www.wikidata.org/prop/P138"
+        },
+        {
+          "string": "nombre",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q82799",
+          "property": "http://www.wikidata.org/prop/P138"
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "sparql": "SELECT ?obj WHERE { wd:Q703 wdt:P246 ?obj }",
+      "answers": [
+        "K"
+      ],
+      "question": [
+        {
+          "string": "What is the chemical symbol for Potassium?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "Potassium",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q703"
+        },
+        {
+          "string": "chemical symbol",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q102500",
+          "property": "http://www.wikidata.org/prop/P246"
+        },
+        {
+          "string": "symbol",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q102500",
+          "property": "http://www.wikidata.org/prop/P246"
+        },
+        {
+          "string": "potasio",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q703"
+        },
+        {
+          "string": "símbolo químico",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q102500",
+          "property": "http://www.wikidata.org/prop/P246"
+        },
+        {
+          "string": "símbolo",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q102500",
+          "property": "http://www.wikidata.org/prop/P246"
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "sparql": "SELECT ?obj WHERE { wd:Q317521 wdt:P2002 ?obj }",
+      "answers": [
+        "elonmusk"
+      ],
+      "question": [
+        {
+          "string": "What is the Twitter account of Elon Musk?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "Elon Musk",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q317521"
+        },
+        {
+          "string": "Musk",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q317521"
+        },
+        {
+          "string": "Twitter",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q918",
+          "property": "http://www.wikidata.org/prop/P2002"
+        },
+        {
+          "string": "Twitter",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q63976454",
+          "property": "http://www.wikidata.org/prop/P2002"
+        },
+        {
+          "string": "account",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q102345381"
+        },
+        {
+          "string": "Twitter account",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q63976454",
+          "property": "http://www.wikidata.org/prop/P2002"
+        },
+        {
+          "string": "Elon Musk",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q317521"
+        },
+        {
+          "string": "Musk",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q317521"
+        },
+        {
+          "string": "cuenta Twitter",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q63976454",
+          "property": "http://www.wikidata.org/prop/P2002"
+        },
+        {
+          "string": "Twitter",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q63976454",
+          "property": "http://www.wikidata.org/prop/P2002"
+        },
+        {
+          "string": "Twitter",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q918",
+          "property": "http://www.wikidata.org/prop/P2002"
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "sparql": "SELECT ?subj WHERE { ?subj wdt:P279+ wd:Q19557 . ?subj wdt:P361 wd:Q239825 }",
+      "answers": [
+        "Q703"
+      ],
+      "question": [
+        {
+          "string": "Which alkali metals are in period 4?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "alkali metals",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q19557"
+        },
+        {
+          "string": "alkali metal",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q19557"
+        },
+        {
+          "string": "period 4",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q239825",
+          "property": "http://www.wikidata.org/prop/P361",
+          "mention": "implicit"
+        },
+        {
+          "string": "are in",
+          "language": "en",
+          "property": "http://www.wikidata.org/prop/P361"
+        },
+        {
+          "string": "metales alcalinos",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q19557"
+        },
+        {
+          "string": "periodo 4",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q239825",
+          "property": "http://www.wikidata.org/prop/P361",
+          "mention": "implicit"
+        },
+        {
+          "string": "están en",
+          "language": "es",
+          "property": "http://www.wikidata.org/prop/P361"
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "sparql": "SELECT ?obj WHERE { wd:Q15343 wdt:P183 ?obj }",
+      "answers": [
+        "Q408"
+      ],
+      "question": [
+        {
+          "string": "Where are platypuses endemic?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "platypuses",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q15343"
+        },
+        {
+          "string": "endemic",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q123452",
+          "property": "http://www.wikidata.org/prop/P183"
+        },
+        {
+          "string": "Where are",
+          "language": "en",
+          "property": "http://www.wikidata.org/prop/P183"
+        },
+        {
+          "string": "ornitorrincos",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q15343"
+        },
+        {
+          "string": "endémicos",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q123452",
+          "property": "http://www.wikidata.org/prop/P183"
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "sparql": "SELECT ?subj WHERE { ?subj wdt:P141 wd:Q96377276 . ?subj wdt:P183 wd:Q298 }",
+      "answers": [
+        "Q1333877",
+        "Q247316",
+        "Q2840196",
+        "Q303087",
+        "Q304494",
+        "Q307272",
+        "Q3764305",
+        "Q4881246",
+        "Q631167",
+        "Q834053"
+      ],
+      "question": [
+        {
+          "string": "Which species endemic to Chile are endangered?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "endangered",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q11394"
+        },
+        {
+          "string": "endangered",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q96377276"
+        },
+        {
+          "string": "Chile",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q298"
+        },
+        {
+          "string": "species",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q7432"
+        },
+        {
+          "string": "endemic",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q123452",
+          "property": "http://www.wikidata.org/prop/P183"
+        },
+        {
+          "string": "en peligro de extinción",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q11394"
+        },
+        {
+          "string": "en peligro de extinción",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q96377276"
+        },
+        {
+          "string": "especies",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q7432"
+        },
+        {
+          "string": "endémicas",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q123452",
+          "property": "http://www.wikidata.org/prop/P183"
+        },
+        {
+          "string": "Chile",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q298"
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "sparql": "SELECT ?obj WHERE { ?subj wdt:P31/wdt:P279* wd:Q134447 . ?subj wdt:P17 ?obj . } GROUP BY ?obj ORDER BY DESC(COUNT(DISTINCT ?subj)) LIMIT 1",
+      "answers": [
+        "Q30"
+      ],
+      "question": [
+        {
+          "string": "What country has the most nuclear power plants?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "nuclear power plants",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q134447"
+        },
+        {
+          "string": "country",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q6256"
+        },
+        {
+          "string": "country",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q3624078"
+        },
+        {
+          "string": "has",
+          "language": "en",
+          "property": "http://www.wikidata.org/prop/P17",
+          "inverse": true
+        },
+        {
+          "string": "centrales nucleares",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q134447"
+        },
+        {
+          "string": "país",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q6256"
+        },
+        {
+          "string": "país",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q3624078"
+        },
+        {
+          "string": "tiene",
+          "language": "es",
+          "property": "http://www.wikidata.org/prop/P17",
+          "inverse": true
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "sparql": "SELECT ?subj WHERE { ?subj wdt:P31/wdt:P279* wd:Q3624078 . ?subj wdt:P37 ?obj } GROUP BY ?subj ORDER BY DESC(COUNT(DISTINCT ?obj)) LIMIT 1",
+      "answers": [
+        "Q865"
+      ],
+      "question": [
+        {
+          "string": "Which country has the most official languages?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "country",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q6256"
+        },
+        {
+          "string": "country",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q3624078"
+        },
+        {
+          "string": "languages",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q34770"
+        },
+        {
+          "string": "official languages",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q23492",
+          "property": "http://www.wikidata.org/prop/P37"
+        },
+        {
+          "string": "país",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q6256"
+        },
+        {
+          "string": "país",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q3624078"
+        },
+        {
+          "string": "idiomas",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q34770"
+        },
+        {
+          "string": "idiomas oficiales",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q23492",
+          "property": "http://www.wikidata.org/prop/P37"
+        },
+        {
+          "string": "número",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q11563"
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "sparql": "SELECT ?obj WHERE { wd:Q30108190 wdt:P571 ?obj }",
+      "answers": [
+        "2013-01-01T00:00:00Z"
+      ],
+      "question": [
+        {
+          "string": "When did ICLR start?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "ICLR",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q30108190"
+        },
+        {
+          "string": "start",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q529711",
+          "property": "http://www.wikidata.org/prop/P571"
+        },
+        {
+          "string": "ICLR",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q30108190"
+        },
+        {
+          "string": "empezó",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q529711",
+          "property": "http://www.wikidata.org/prop/P571"
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P31/wdt:P279* wd:Q3624078 . ?sbj wdt:P37 wd:Q188 . MINUS { wd:Q183 wdt:P47 ?sbj } MINUS { ?sbj wdt:P31/wdt:P279* wd:Q3024240 } }",
+      "answers": [
+        "Q12548",
+        "Q183",
+        "Q27304761",
+        "Q347",
+        "Q551375",
+        "Q877579"
+      ],
+      "question": [
+        {
+          "string": "Which countries that do not border Germany have German as an official language?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "countries",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q6256"
+        },
+        {
+          "string": "countries",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q3624078"
+        },
+        {
+          "string": "Germany",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q183"
+        },
+        {
+          "string": "German",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q188"
+        },
+        {
+          "string": "language",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q34770"
+        },
+        {
+          "string": "official language",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q23492",
+          "property": "http://www.wikidata.org/prop/P37"
+        },
+        {
+          "string": "border",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q133346",
+          "property": "http://www.wikidata.org/prop/P47"
+        },
+        {
+          "string": "países",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q6256"
+        },
+        {
+          "string": "países",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q3624078"
+        },
+        {
+          "string": "Alemania",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q183"
+        },
+        {
+          "string": "alemán",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q188"
+        },
+        {
+          "string": "idioma",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q34770"
+        },
+        {
+          "string": "idioma oficial",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q23492",
+          "property": "http://www.wikidata.org/prop/P37"
+        },
+        {
+          "string": "frontera",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q133346",
+          "property": "http://www.wikidata.org/prop/P47"
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "sparql": "SELECT ?obj WHERE { wd:Q41 wdt:P85 ?obj }",
+      "answers": [
+        "Q176665"
+      ],
+      "question": [
+        {
+          "string": "What is the national anthem of Greece?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "Greece",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q41"
+        },
+        {
+          "string": "national anthem",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q23691",
+          "property": "http://www.wikidata.org/prop/P85"
+        },
+        {
+          "string": "Grecia",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q41"
+        },
+        {
+          "string": "himno nacional",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q23691",
+          "property": "http://www.wikidata.org/prop/P85"
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "sparql": "SELECT ?obj WHERE { wd:Q869733 wdt:P176 ?obj }",
+      "answers": [
+        "Q695087"
+      ],
+      "question": [
+        {
+          "string": "Which company makes Twix?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "Twix",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q869733"
+        },
+        {
+          "string": "company",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q783794"
+        },
+        {
+          "string": "makes",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q13235160",
+          "property": "http://www.wikidata.org/prop/P176",
+          "inverse": true
+        },
+        {
+          "string": "Twix",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q869733"
+        },
+        {
+          "string": "empresa",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q783794"
+        },
+        {
+          "string": "fabrica",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q13235160",
+          "property": "http://www.wikidata.org/prop/P176",
+          "inverse": true
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "sparql": "SELECT ?subj WHERE { ?subj wdt:P31/wdt:P279* wd:Q589 . ?subj p:P2583/psn:P2583/wikibase:quantityAmount ?obj } ORDER BY ?obj LIMIT 1",
+      "answers": [
+        "Q237284"
+      ],
+      "question": [
+        {
+          "string": "What is the nearest black hole to Earth?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "black hole",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q589"
+        },
+        {
+          "string": "Earth",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q2"
+        },
+        {
+          "string": "nearest",
+          "language": "en",
+          "property": "http://www.wikidata.org/prop/P2583",
+          "superlative": "min"
+        },
+        {
+          "string": "agujero negro",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q589"
+        },
+        {
+          "string": "Tierra",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q2"
+        },
+        {
+          "string": "cercano",
+          "language": "es",
+          "property": "http://www.wikidata.org/prop/P2583"
+        },
+        {
+          "string": "más cercano",
+          "language": "es",
+          "property": "http://www.wikidata.org/prop/P2583",
+          "superlative": "min"
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "sparql": "SELECT DISTINCT ?subj WHERE { ?subj wdt:P31/wdt:P279* wd:Q47258130 . ?subj wdt:P921/(wdt:P1269|wdt:P279)* wd:Q2539 . }",
+      "answers": [
+        "Q123908455",
+        "Q16950911",
+        "Q17087718",
+        "Q1961016",
+        "Q2992422",
+        "Q30108190",
+        "Q56289836",
+        "Q62657831",
+        "Q66305862"
+      ],
+      "question": [
+        {
+          "string": "Which conferences focus on Machine Learning?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "conferences",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q47258130"
+        },
+        {
+          "string": "Machine Learning",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q2539",
+          "property": "http://www.wikidata.org/prop/P921",
+          "mention": "implicit"
+        },
+        {
+          "string": "focus on",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q12310021",
+          "property": "http://www.wikidata.org/prop/P921"
+        },
+        {
+          "string": "conferencias",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q47258130"
+        },
+        {
+          "string": "aprendizaje de máquinas",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q47258130",
+          "property": "http://www.wikidata.org/prop/P921",
+          "mention": "implicit"
+        },
+        {
+          "string": "enfocan",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q12310021",
+          "property": "http://www.wikidata.org/prop/P921"
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P31/wdt:P279* wd:Q515 . ?sbj wdt:P138 ?obj . ?obj (wdt:P39|wdt:P31|wdt:P106|wdt:P411)?/wdt:P279* wd:Q43412 }",
+      "answers": [
+        "Q1016047",
+        "Q169943",
+        "Q174",
+        "Q174262",
+        "Q187831",
+        "Q191652",
+        "Q2031463",
+        "Q2540118",
+        "Q28848",
+        "Q2887",
+        "Q3471566",
+        "Q3932",
+        "Q42763",
+        "Q430313",
+        "Q488379",
+        "Q656",
+        "Q75933"
+      ],
+      "question": [
+        {
+          "string": "Which cities are named after an apostle?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "cities",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q515"
+        },
+        {
+          "string": "apostle",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q43412"
+        },
+        {
+          "string": "named",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q82799",
+          "property": "http://www.wikidata.org/prop/P138"
+        },
+        {
+          "string": "name",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q82799",
+          "property": "http://www.wikidata.org/prop/P138"
+        },
+        {
+          "string": "named after",
+          "language": "en",
+          "property": "http://www.wikidata.org/prop/P138"
+        },
+        {
+          "string": "ciudades",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q515"
+        },
+        {
+          "string": "apóstol",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q43412"
+        },
+        {
+          "string": "nombre",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q82799",
+          "property": "http://www.wikidata.org/prop/P138"
+        },
+        {
+          "string": "deben su nombre a",
+          "language": "es",
+          "property": "http://www.wikidata.org/prop/P138"
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P31*/wdt:P279* wd:Q1361086 . ?sbj wdt:P176|wdt:P127 wd:Q160746 . }",
+      "answers": [
+        "Q116601648",
+        "Q1204628",
+        "Q12063757",
+        "Q1827229",
+        "Q2005613",
+        "Q2600165",
+        "Q2981822",
+        "Q2989610",
+        "Q367251",
+        "Q4906619",
+        "Q5042737",
+        "Q5185997",
+        "Q7166421",
+        "Q7225840",
+        "Q8055639"
+      ],
+      "question": [
+        {
+          "string": "What chocolate bars are made by Nestlé?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "chocolate bars",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q1361086"
+        },
+        {
+          "string": "Nestlé",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q160746"
+        },
+        {
+          "string": "chocolate",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q195"
+        },
+        {
+          "string": "made by",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q187939",
+          "property": "http://www.wikidata.org/prop/P176"
+        },
+        {
+          "string": "barras de chocolate",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q1361086"
+        },
+        {
+          "string": "chocolate",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q195"
+        },
+        {
+          "string": "Nestlé",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q160746"
+        },
+        {
+          "string": "fabrican",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q187939",
+          "property": "http://www.wikidata.org/prop/P176",
+          "inverse": true
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "sparql": "SELECT DISTINCT ?obj2 WHERE { wd:Q9588 p:P39 ?obj . ?obj ps:P39 wd:Q11696 . ?obj pq:P1365 ?obj2 . }",
+      "answers": [
+        "Q9640"
+      ],
+      "question": [
+        {
+          "string": "Who was the US president before Richard Nixon?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "US president",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q11696",
+          "property": "http://www.wikidata.org/prop/P39",
+          "mention": "implicit"
+        },
+        {
+          "string": "Richard Nixon",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q9588"
+        },
+        {
+          "string": "president",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q30461",
+          "property": "http://www.wikidata.org/prop/P39",
+          "mention": "implicit"
+        },
+        {
+          "string": "Nixon",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q9588"
+        },
+        {
+          "string": "before",
+          "language": "en",
+          "property": "http://www.wikidata.org/prop/P1365"
+        },
+        {
+          "string": "presidente de los EEUU",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q11696",
+          "property": "http://www.wikidata.org/prop/P39",
+          "mention": "implicit"
+        },
+        {
+          "string": "Richard Nixon",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q9588"
+        },
+        {
+          "string": "presidente",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q30461",
+          "property": "http://www.wikidata.org/prop/P39",
+          "mention": "implicit"
+        },
+        {
+          "string": "Nixon",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q9588"
+        },
+        {
+          "string": "antes que",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q106110777",
+          "property": "http://www.wikidata.org/prop/P1365"
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "sparql": "SELECT (COUNT(DISTINCT ?obj) AS ?count) WHERE { wd:Q25169 wdt:P527 ?obj  }",
+      "answers": [
+        "5"
+      ],
+      "question": [
+        {
+          "string": "How many books are in The Hitchhiker's Guide to the Galaxy series?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "The Hitchhiker's Guide to the Galaxy series",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q25169"
+        },
+        {
+          "string": "The Hitchhiker's Guide to the Galaxy",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q98557758"
+        },
+        {
+          "string": "Hitchhiker's Guide to the Galaxy",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q98557758"
+        },
+        {
+          "string": "books",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q571"
+        },
+        {
+          "string": "series",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q1667921"
+        },
+        {
+          "string": "are in",
+          "language": "en",
+          "property": "http://www.wikidata.org/prop/P527"
+        },
+        {
+          "string": "serie Guía del autoestopista galáctico",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q25169"
+        },
+        {
+          "string": "libros",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q571"
+        },
+        {
+          "string": "serie",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q1667921"
+        },
+        {
+          "string": "Guía del autoestopista galáctico",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q98557758"
+        },
+        {
+          "string": "hay en",
+          "language": "es",
+          "property": "http://www.wikidata.org/prop/P527"
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P31/wdt:P279 wd:Q95074 . ?sbj wdt:P1080 wd:Q61468436 . ?sbj wdt:P19 ?obj . FILTER(?obj != wd:Q151076)  }",
+      "answers": [
+        "Q10381019",
+        "Q1789068",
+        "Q2704414",
+        "Q324430"
+      ],
+      "question": [
+        {
+          "string": "Which Simpsons characters were not born in Springfield?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "Simpsons",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q7764350"
+        },
+        {
+          "string": "Simpsons",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q61468436"
+        },
+        {
+          "string": "Springfield",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q151076"
+        },
+        {
+          "string": "characters",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q95074"
+        },
+        {
+          "string": "born",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q14819852",
+          "property": "http://www.wikidata.org/prop/P19"
+        },
+        {
+          "string": "born in",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q14819852",
+          "property": "http://www.wikidata.org/prop/P19"
+        },
+        {
+          "string": "Los Simpson",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q7764350"
+        },
+        {
+          "string": "Los Simpson",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q61468436"
+        },
+        {
+          "string": "Springfield",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q151076"
+        },
+        {
+          "string": "caracteres",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q95074"
+        },
+        {
+          "string": "nacieron",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q14819852",
+          "property": "http://www.wikidata.org/prop/P19"
+        },
+        {
+          "string": "nacieron en",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q14819852",
+          "property": "http://www.wikidata.org/prop/P19"
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "sparql": "SELECT ?obj WHERE { wd:Q264554 wdt:P575 ?obj  }",
+      "answers": [
+        "1767-01-01T00:00:00Z"
+      ],
+      "question": [
+        {
+          "string": "When was sparkling water invented?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "sparkling water",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q264554"
+        },
+        {
+          "string": "water",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q283"
+        },
+        {
+          "string": "invented",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q14208553"
+        },
+        {
+          "string": "agua con gas",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q264554"
+        },
+        {
+          "string": "agua",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q283"
+        },
+        {
+          "string": "inventó",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q14208553"
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "sparql": "SELECT ?sbj WHERE { ?sbj wdt:P106 wd:Q3665646 . ?sbj p:P2048/psn:P2048/wikibase:quantityAmount ?obj . } ORDER BY DESC(?obj) LIMIT 1",
+      "answers": [
+        "Q940503"
+      ],
+      "question": [
+        {
+          "string": "Who is the tallest professional basketball player of all time?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "basketball player",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q3665646"
+        },
+        {
+          "string": "professional basketball player",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q3665646"
+        },
+        {
+          "string": "tallest",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q208826",
+          "property": "http://www.wikidata.org/prop/P2048",
+          "superlative": "max"
+        },
+        {
+          "string": "player",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q4197743"
+        },
+        {
+          "string": "jugador profesional de básquetbol",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q3665646"
+        },
+        {
+          "string": "alto",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q208826",
+          "property": "http://www.wikidata.org/prop/P2048"
+        },
+        {
+          "string": "jugador",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q4197743"
+        },
+        {
+          "string": "más alto",
+          "language": "es",
+          "property": "http://www.wikidata.org/prop/P2048",
+          "superlative": "max"
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "sparql": "SELECT (YEAR(NOW())-YEAR(?obj) - IF(MONTH(NOW())>MONTH(?obj),0,IF(MONTH(NOW())=MONTH(?obj) && DAY(NOW())>=DAY(?obj),0,1)) AS ?age) WHERE { wd:Q34086 wdt:P569 ?obj }",
+      "answers": [
+        "32"
+      ],
+      "question": [
+        {
+          "string": "What age is Justin Bieber?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "Justin Bieber",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q34086"
+        },
+        {
+          "string": "age",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q185836"
+        },
+        {
+          "string": "Justin Bieber",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q34086"
+        },
+        {
+          "string": "años",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q577"
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "sparql": "ASK WHERE { FILTER NOT EXISTS { wd:Q34086 wdt:P570 ?obj2 } }",
+      "answers": [
+        true
+      ],
+      "question": [
+        {
+          "string": "Is Justin Bieber alive?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "Justin Bieber",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q34086"
+        },
+        {
+          "string": "alive",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q21075715",
+          "property": "http://www.wikidata.org/prop/P570",
+          "quantifier": "not exists"
+        },
+        {
+          "string": "alive",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q21075715",
+          "property": "http://www.wikidata.org/prop/P20",
+          "quantifier": "not exists"
+        },
+        {
+          "string": "Justin Bieber",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q34086"
+        },
+        {
+          "string": "vivo",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q21075715",
+          "property": "http://www.wikidata.org/prop/P570",
+          "quantifier": "not exists"
+        },
+        {
+          "string": "vivo",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q21075715",
+          "property": "http://www.wikidata.org/prop/P20",
+          "quantifier": "not exists"
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "sparql": "ASK WHERE { wd:Q34086 wdt:P570 ?obj }",
+      "answers": [
+        false
+      ],
+      "question": [
+        {
+          "string": "Is Justin Bieber dead?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "Justin Bieber",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q34086"
+        },
+        {
+          "string": "dead",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q4",
+          "property": "http://www.wikidata.org/prop/P570",
+          "quantifier": "exists"
+        },
+        {
+          "string": "dead",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q4",
+          "property": "http://www.wikidata.org/prop/P20",
+          "quantifier": "exists"
+        },
+        {
+          "string": "Justin Bieber",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q34086"
+        },
+        {
+          "string": "muerto",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q4",
+          "property": "http://www.wikidata.org/prop/P570",
+          "quantifier": "exists"
+        },
+        {
+          "string": "muerto",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q4",
+          "property": "http://www.wikidata.org/prop/P20",
+          "quantifier": "exists"
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "sparql": "SELECT (YEAR(NOW())-YEAR(?obj) - IF(MONTH(NOW())>MONTH(?obj),0,IF(MONTH(NOW())=MONTH(?obj) && DAY(NOW())>=DAY(?obj),0,1)) AS ?age) { wd:Q34086 wdt:P569 ?obj . }",
+      "answers": [
+        "32"
+      ],
+      "question": [
+        {
+          "string": "What age would Justin Bieber be if he were still alive?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "Justin Bieber",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q34086"
+        },
+        {
+          "string": "age",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q185836"
+        },
+        {
+          "string": "alive",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q21075715",
+          "property": "http://www.wikidata.org/prop/P20",
+          "quantifier": "not exists"
+        },
+        {
+          "string": "alive",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q21075715",
+          "property": "http://www.wikidata.org/prop/P570",
+          "quantifier": "not exists"
+        },
+        {
+          "string": "Justin Bieber",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q34086"
+        },
+        {
+          "string": "años",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q577"
+        },
+        {
+          "string": "vivo",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q21075715",
+          "property": "http://www.wikidata.org/prop/P20",
+          "quantifier": "not exists"
+        },
+        {
+          "string": "vivo",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q21075715",
+          "property": "http://www.wikidata.org/prop/P570",
+          "quantifier": "not exists"
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "sparql": "ASK WHERE { FILTER NOT EXISTS { wd:Q2831 wdt:P569 ?obj2 . wd:Q2831 wdt:P3373 ?obj3 . ?obj3 wdt:P569 ?obj4 . FILTER(?obj2 > ?obj4) } }",
+      "answers": [
+        false
+      ],
+      "question": [
+        {
+          "string": "Is Michael Jackson the oldest child?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "Michael Jackson",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q2831"
+        },
+        {
+          "string": "child",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q7569",
+          "property": "http://www.wikidata.org/prop/P40"
+        },
+        {
+          "string": "oldest",
+          "language": "en",
+          "property": "http://www.wikidata.org/prop/P569",
+          "superlative": "min"
+        },
+        {
+          "string": "Michael Jackson",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q2831"
+        },
+        {
+          "string": "hijo",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q7569",
+          "property": "http://www.wikidata.org/prop/P40"
+        },
+        {
+          "string": "mayor",
+          "language": "es",
+          "property": "http://www.wikidata.org/prop/P569",
+          "superlative": "min"
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "sparql": "SELECT ?obj2 WHERE { wd:Q1096 p:P31 ?obj1 . ?obj1 pq:P155 ?obj2 . ?obj1 ps:P31 wd:Q11344 . }",
+      "answers": [
+        "Q1094"
+      ],
+      "question": [
+        {
+          "string": "Which element precedes tin in the periodic table?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "tin",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q1096"
+        },
+        {
+          "string": "element",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q11344"
+        },
+        {
+          "string": "periodic table",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q10693"
+        },
+        {
+          "string": "precedes",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q106110777",
+          "property": "http://www.wikidata.org/prop/P155"
+        },
+        {
+          "string": "estaño",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q1096"
+        },
+        {
+          "string": "elemento",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q11344"
+        },
+        {
+          "string": "tabla periódica",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q10693"
+        },
+        {
+          "string": "precede",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q106110777",
+          "property": "http://www.wikidata.org/prop/P155"
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "sparql": "SELECT ?sbj WHERE { ?sbj wdt:P31/wdt:P279* wd:Q11344 . ?sbj p:P2101/psn:P2101/wikibase:quantityAmount ?obj } ORDER BY ?obj LIMIT 1",
+      "answers": [
+        "Q560"
+      ],
+      "question": [
+        {
+          "string": "Which element has the lowest melting point?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "element",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q11344"
+        },
+        {
+          "string": "melting point",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q15318",
+          "property": "http://www.wikidata.org/prop/P2101"
+        },
+        {
+          "string": "lowest melting point",
+          "language": "en",
+          "property": "http://www.wikidata.org/prop/P2101",
+          "superlative": "min"
+        },
+        {
+          "string": "punto de fusión",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q15318",
+          "property": "http://www.wikidata.org/prop/P2101"
+        },
+        {
+          "string": "elemento",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q11344"
+        },
+        {
+          "string": "punto de fusión más bajo",
+          "language": "es",
+          "property": "http://www.wikidata.org/prop/P2101",
+          "superlative": "min"
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "sparql": "SELECT ?obj WHERE { ?sbj wdt:P31/wdt:P279* wd:Q3624078 . ?sbj wdt:P37 ?obj } GROUP BY ?obj ORDER BY DESC(COUNT(?sbj)) LIMIT 1",
+      "answers": [
+        "Q1860"
+      ],
+      "question": [
+        {
+          "string": "Which language is the official language of the most countries?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "language",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q34770"
+        },
+        {
+          "string": "official language",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q23492",
+          "property": "http://www.wikidata.org/prop/P37"
+        },
+        {
+          "string": "countries",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q3624078"
+        },
+        {
+          "string": "countries",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q6256"
+        },
+        {
+          "string": "official language of",
+          "language": "en",
+          "property": "http://www.wikidata.org/prop/P37",
+          "inverse": true
+        },
+        {
+          "string": "idioma",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q34770"
+        },
+        {
+          "string": "países",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q3624078"
+        },
+        {
+          "string": "países",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q6256"
+        },
+        {
+          "string": "oficial",
+          "language": "es",
+          "property": "http://www.wikidata.org/prop/P37"
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P39/wdt:P31*/wdt:P279* wd:Q30185 . ?sbj wdt:P31/wdt:P279* wd:Q729 . MINUS { ?sbj wdt:P31/wdt:P279* wd:Q5 . } }",
+      "answers": [
+        "Q123904907",
+        "Q16844922",
+        "Q19810594",
+        "Q7627362"
+      ],
+      "question": [
+        {
+          "string": "Which honorary mayors were not human?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "mayors",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q30185"
+        },
+        {
+          "string": "human",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q5"
+        },
+        {
+          "string": "were",
+          "language": "en",
+          "property": "http://www.wikidata.org/prop/P39"
+        },
+        {
+          "string": "alcaldes",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q30185"
+        },
+        {
+          "string": "humanos",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q5"
+        },
+        {
+          "string": "fueron",
+          "language": "es",
+          "property": "http://www.wikidata.org/prop/P39"
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P31/wdt:P279* wd:Q836270 . ?sbj wdt:P31/wdt:P279* wd:Q1486643 . }",
+      "answers": [
+        "Q1066089",
+        "Q1095904",
+        "Q1492447",
+        "Q19260207",
+        "Q23488",
+        "Q36977",
+        "Q3844595",
+        "Q42817",
+        "Q646181",
+        "Q667957",
+        "Q812996",
+        "Q851628"
+      ],
+      "question": [
+        {
+          "string": "Which polygonal numbers are also pronic?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "polygonal numbers",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q836270"
+        },
+        {
+          "string": "numbers",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q11563"
+        },
+        {
+          "string": "polygonal",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q836270"
+        },
+        {
+          "string": "pronic",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q1486643"
+        },
+        {
+          "string": "números poligonales",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q836270"
+        },
+        {
+          "string": "números",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q11563"
+        },
+        {
+          "string": "poligonales",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q836270"
+        },
+        {
+          "string": "prónicos",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q1486643"
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "sparql": "SELECT ?obj2 WHERE { wd:Q712808 p:P31 ?obj1 . ?obj1 pq:P156 ?obj2 . ?obj1 ps:P31 wd:Q49008 }",
+      "answers": [
+        "Q593011"
+      ],
+      "question": [
+        {
+          "string": "What's the next prime after 51?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "prime",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q49008"
+        },
+        {
+          "string": "51",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q712808"
+        },
+        {
+          "string": "after",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q106110771",
+          "property": "http://www.wikidata.org/prop/P156"
+        },
+        {
+          "string": "next",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q106110771",
+          "property": "http://www.wikidata.org/prop/P156"
+        },
+        {
+          "string": "primo",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q49008"
+        },
+        {
+          "string": "51",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q712808"
+        },
+        {
+          "string": "próximo",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q106110771",
+          "property": "http://www.wikidata.org/prop/P156"
+        },
+        {
+          "string": "después",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q106110771",
+          "property": "http://www.wikidata.org/prop/P156"
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "sparql": "SELECT ?sbj WHERE { ?sbj p:P3465/psn:P3465/wikibase:quantityAmount ?obj } ORDER BY DESC(?obj) LIMIT 1",
+      "answers": [
+        "Q761648"
+      ],
+      "question": [
+        {
+          "string": "What animal can hear the highest frequency?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "animal",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q729"
+        },
+        {
+          "string": "hear",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q160289"
+        },
+        {
+          "string": "frequency",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q11652"
+        },
+        {
+          "string": "hear the highest frequency",
+          "language": "en",
+          "property": "http://www.wikidata.org/prop/P3465",
+          "superlative": "max"
+        },
+        {
+          "string": "animal",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q729"
+        },
+        {
+          "string": "oír",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q160289"
+        },
+        {
+          "string": "frecuencia",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q11652"
+        },
+        {
+          "string": "oír la frecuencia más alta",
+          "language": "es",
+          "property": "http://www.wikidata.org/prop/P3465",
+          "superlative": "max"
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P166 ?obj . ?obj wdt:P31*/wdt:P279* wd:Q7191 } GROUP BY ?sbj HAVING(COUNT(DISTINCT(?obj))>1)",
+      "answers": [
+        "Q48983",
+        "Q7186"
+      ],
+      "question": [
+        {
+          "string": "Who has won more than one type of Nobel Prize?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "Nobel Prize",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q7191"
+        },
+        {
+          "string": "won",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q50000",
+          "property": "http://www.wikidata.org/prop/P166"
+        },
+        {
+          "string": "one",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q199"
+        },
+        {
+          "string": "Prize",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q5257307"
+        },
+        {
+          "string": "Nobel",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q23810"
+        },
+        {
+          "string": "Premio Nobel",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q7191"
+        },
+        {
+          "string": "ganado",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q50000",
+          "property": "http://www.wikidata.org/prop/P166"
+        },
+        {
+          "string": "un",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q199"
+        },
+        {
+          "string": "Premio",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q5257307"
+        },
+        {
+          "string": "Nobel",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q23810"
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "sparql": "SELECT ?obj WHERE { ?sbj wdt:P31/wdt:P279* wd:Q2977 . ?sbj wdt:P276?/wdt:P131* ?obj . ?obj wdt:P31/wdt:P279* wd:Q515 . } GROUP BY ?obj ORDER BY DESC(COUNT(DISTINCT ?sbj)) LIMIT 1",
+      "answers": [
+        "Q90"
+      ],
+      "question": [
+        {
+          "string": "Which city has the most cathedrals?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "city",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q515"
+        },
+        {
+          "string": "cathedrals",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q2977"
+        },
+        {
+          "string": "has",
+          "language": "en",
+          "property": "http://www.wikidata.org/prop/P131",
+          "inverse": true
+        },
+        {
+          "string": "ciudad",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q515"
+        },
+        {
+          "string": "catedrales",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q2977"
+        },
+        {
+          "string": "número",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q11563"
+        },
+        {
+          "string": "tiene",
+          "language": "es",
+          "property": "http://www.wikidata.org/prop/P131",
+          "inverse": true
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "sparql": "SELECT ?obj WHERE { wd:Q243543 wdt:P176 ?obj }",
+      "answers": [
+        "Q10874595",
+        "Q53268"
+      ],
+      "question": [
+        {
+          "string": "What make of car is a Corolla?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "make of car",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q786820",
+          "property": "http://www.wikidata.org/prop/P176"
+        },
+        {
+          "string": "Corolla",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q243543"
+        },
+        {
+          "string": "car",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q1420"
+        },
+        {
+          "string": "make",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q431289",
+          "property": "http://www.wikidata.org/prop/P176"
+        },
+        {
+          "string": "Corolla",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q243543"
+        },
+        {
+          "string": "auto",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q1420"
+        },
+        {
+          "string": "marca",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q431289",
+          "property": "http://www.wikidata.org/prop/P176"
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "sparql": "SELECT ?obj WHERE { wd:Q5456 wdt:P610 ?obj }",
+      "answers": [
+        "Q39739"
+      ],
+      "question": [
+        {
+          "string": "What is the tallest mountain in the Andes?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "mountain",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q8502"
+        },
+        {
+          "string": "Andes",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q5456"
+        },
+        {
+          "string": "tallest",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q208826",
+          "property": "http://www.wikidata.org/prop/P610",
+          "superlative": "max"
+        },
+        {
+          "string": "tallest",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q190200",
+          "property": "http://www.wikidata.org/prop/P610",
+          "superlative": "max"
+        },
+        {
+          "string": "montaña",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q8502"
+        },
+        {
+          "string": "Los Andes",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q5456"
+        },
+        {
+          "string": "Andes",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q5456"
+        },
+        {
+          "string": "alta",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q208826",
+          "property": "http://www.wikidata.org/prop/P610"
+        },
+        {
+          "string": "alta",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q190200",
+          "property": "http://www.wikidata.org/prop/P610"
+        },
+        {
+          "string": "más alta",
+          "language": "es",
+          "property": "http://www.wikidata.org/prop/P610",
+          "superlative": "max"
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "sparql": "SELECT ?sbj WHERE { ?sbj p:P26 ?obj . ?sbj wdt:P39 wd:Q11696 . } GROUP BY ?sbj ORDER BY DESC(COUNT(DISTINCT ?obj)) LIMIT 1",
+      "answers": [
+        "Q22686"
+      ],
+      "question": [
+        {
+          "string": "Which U.S. president had the most spouses?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "spouses",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q1196129",
+          "property": "http://www.wikidata.org/prop/P26"
+        },
+        {
+          "string": "president",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q30461",
+          "property": "http://www.wikidata.org/prop/P35",
+          "mention": "subproperty"
+        },
+        {
+          "string": "U.S.",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q30"
+        },
+        {
+          "string": "U.S. president",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q11696",
+          "property": "http://www.wikidata.org/prop/P39",
+          "mention": "implicit"
+        },
+        {
+          "string": "presidente de los EEUU",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q11696",
+          "property": "http://www.wikidata.org/prop/P39",
+          "mention": "implicit"
+        },
+        {
+          "string": "número",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q11563"
+        },
+        {
+          "string": "presidente",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q30461",
+          "property": "http://www.wikidata.org/prop/P35",
+          "mention": "subproperty"
+        },
+        {
+          "string": "esposos",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q1196129",
+          "property": "http://www.wikidata.org/prop/P26"
+        },
+        {
+          "string": "EEUU",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q30"
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "sparql": "SELECT ?obj WHERE { wd:Q47043 wdt:P571 ?obj }",
+      "answers": [
+        "1974-05-19T00:00:00Z"
+      ],
+      "question": [
+        {
+          "string": "When was the Rubik's cube invented?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "Rubik's cube",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q47043"
+        },
+        {
+          "string": "invented",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q14208553"
+        },
+        {
+          "string": "cube",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q812880"
+        },
+        {
+          "string": "Rubik",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q186089"
+        },
+        {
+          "string": "cubo de Rubik",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q47043"
+        },
+        {
+          "string": "inventó",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q14208553"
+        },
+        {
+          "string": "cubo",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q812880"
+        },
+        {
+          "string": "Rubik",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q186089"
+        },
+        {
+          "string": "Cuándo se inventó",
+          "language": "es",
+          "property": "http://www.wikidata.org/prop/P571"
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P31/wdt:P279* wd:Q2020153 . ?sbj wdt:P664 ?obj . ?obj wdt:P166 wd:Q185667 }",
+      "answers": [
+        "Q104243738",
+        "Q28053046",
+        "Q48026033",
+        "Q50355797",
+        "Q76721357",
+        "Q86968250"
+      ],
+      "question": [
+        {
+          "string": "Which conferences were organized by Turing Award winners?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "conferences",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q2020153"
+        },
+        {
+          "string": "Turing Award",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q185667"
+        },
+        {
+          "string": "winners",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q18560095",
+          "property": "http://www.wikidata.org/prop/P166"
+        },
+        {
+          "string": "organized",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q1419997",
+          "property": "http://www.wikidata.org/prop/P664",
+          "inverse": true
+        },
+        {
+          "string": "Turing",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q7251"
+        },
+        {
+          "string": "organized by",
+          "language": "en",
+          "property": "http://www.wikidata.org/prop/P664"
+        },
+        {
+          "string": "Premio Turing",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q185667"
+        },
+        {
+          "string": "conferencias",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q2020153"
+        },
+        {
+          "string": "ganador",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q18560095",
+          "property": "http://www.wikidata.org/prop/P166"
+        },
+        {
+          "string": "organizadas",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q1419997",
+          "property": "http://www.wikidata.org/prop/P664"
+        },
+        {
+          "string": "Turing",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q7251"
+        },
+        {
+          "string": "organizadas por",
+          "language": "es",
+          "property": "http://www.wikidata.org/prop/P664"
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P31/wdt:P279* wd:Q7889 . ?sbj wdt:P178 ?obj . wd:Q223341 wdt:P178 ?obj . }",
+      "answers": [
+        "Q124635973",
+        "Q126480867",
+        "Q126481340",
+        "Q126481821",
+        "Q126482050",
+        "Q131438072",
+        "Q223341",
+        "Q2998270",
+        "Q3008213",
+        "Q67650639",
+        "Q72716423",
+        "Q75230763",
+        "Q86919275"
+      ],
+      "question": [
+        {
+          "string": "What video games are made by the developer of League of Legends?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "video games",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q7889"
+        },
+        {
+          "string": "League of Legends",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q223341"
+        },
+        {
+          "string": "developer",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q210167",
+          "property": "http://www.wikidata.org/prop/P178"
+        },
+        {
+          "string": "made by",
+          "language": "en",
+          "property": "http://www.wikidata.org/prop/P178"
+        },
+        {
+          "string": "juegos de video",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q7889"
+        },
+        {
+          "string": "desarrollador",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q210167",
+          "property": "http://www.wikidata.org/prop/P178"
+        },
+        {
+          "string": "League of Legends",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q223341"
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "sparql": "SELECT ?sbj WHERE { ?sbj wdt:P106 wd:Q36180 . ?sbj wdt:P1412 wd:Q150 . ?sbj wdt:P1412 wd:Q13955 . ?sbj wdt:P1412 wd:Q5287 . }",
+      "answers": [
+        "Q107252323",
+        "Q16117958",
+        "Q170515",
+        "Q3057567",
+        "Q3124234",
+        "Q356719",
+        "Q472147",
+        "Q546374",
+        "Q55963"
+      ],
+      "question": [
+        {
+          "string": "Which writers speak French, Arabic and Japanese?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "writers",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q36180"
+        },
+        {
+          "string": "French",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q150"
+        },
+        {
+          "string": "Arabic",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q13955"
+        },
+        {
+          "string": "Japanese",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q5287"
+        },
+        {
+          "string": "speak",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q315",
+          "property": "http://www.wikidata.org/prop/P1412"
+        },
+        {
+          "string": "autores",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q36180"
+        },
+        {
+          "string": "francés",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q150"
+        },
+        {
+          "string": "árabe",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q13955"
+        },
+        {
+          "string": "japonés",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q5287"
+        },
+        {
+          "string": "hablan",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q315",
+          "property": "http://www.wikidata.org/prop/P1412"
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P31/wdt:P271* wd:Q10373548 . ?sbj wdt:P17 wd:Q27 }",
+      "answers": [
+        "Q113799362",
+        "Q123154491",
+        "Q1867525",
+        "Q2482",
+        "Q28231971",
+        "Q28408323",
+        "Q28450922",
+        "Q3312688",
+        "Q502578",
+        "Q735484",
+        "Q85797673"
+      ],
+      "question": [
+        {
+          "string": "What whisky distilleries are based in Ireland?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "whisky distilleries",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q10373548"
+        },
+        {
+          "string": "Ireland",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q27"
+        },
+        {
+          "string": "whisky",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q281"
+        },
+        {
+          "string": "distilleries",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q1251750"
+        },
+        {
+          "string": "based in",
+          "language": "en",
+          "property": "http://www.wikidata.org/prop/P17"
+        },
+        {
+          "string": "in",
+          "language": "en",
+          "property": "http://www.wikidata.org/prop/P17"
+        },
+        {
+          "string": "destilerías de whisky",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q10373548"
+        },
+        {
+          "string": "Irlanda",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q27"
+        },
+        {
+          "string": "destilerías",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q10373548"
+        },
+        {
+          "string": "whisky",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q281"
+        },
+        {
+          "string": "están en",
+          "language": "es",
+          "property": "http://www.wikidata.org/prop/P17"
+        },
+        {
+          "string": "en",
+          "language": "es",
+          "property": "http://www.wikidata.org/prop/P17"
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "sparql": "SELECT (COUNT(?sbj) AS ?count) WHERE { ?sbj wdt:P31 wd:Q36784 . }",
+      "answers": [
+        "39"
+      ],
+      "question": [
+        {
+          "string": "How many regions of France are there?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "regions of France",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q36784"
+        },
+        {
+          "string": "regions",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q82794"
+        },
+        {
+          "string": "regions",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q36784"
+        },
+        {
+          "string": "France",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q142"
+        },
+        {
+          "string": "regiones de Francia",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q36784"
+        },
+        {
+          "string": "regiones",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q82794"
+        },
+        {
+          "string": "regiones",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q36784"
+        },
+        {
+          "string": "Francia",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q142"
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "sparql": "SELECT ?obj WHERE { ?sbj wdt:P31*/wdt:P276* wd:Q11344 . ?sbj wdt:P138 ?obj . ?obj wdt:P31 wd:Q5 . MINUS { ?obj wdt:P570 ?obj2 } }",
+      "answers": [
+        "Q1144326"
+      ],
+      "question": [
+        {
+          "string": "Which living people have an element named after them?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "people",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q5"
+        },
+        {
+          "string": "element",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q11344"
+        },
+        {
+          "string": "living",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q21075715",
+          "property": "http://www.wikidata.org/prop/P20",
+          "quantifier": "not exists"
+        },
+        {
+          "string": "living",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q21075715",
+          "property": "http://www.wikidata.org/prop/P570",
+          "quantifier": "not exists"
+        },
+        {
+          "string": "named",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q82799",
+          "property": "http://www.wikidata.org/prop/P138"
+        },
+        {
+          "string": "named after",
+          "language": "en",
+          "property": "http://www.wikidata.org/prop/P138"
+        },
+        {
+          "string": "personas vivas",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q5"
+        },
+        {
+          "string": "elemento",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q11344"
+        },
+        {
+          "string": "personas",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q5"
+        },
+        {
+          "string": "nombre",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q82799",
+          "property": "http://www.wikidata.org/prop/P138"
+        },
+        {
+          "string": "vivas",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q21075715",
+          "property": "http://www.wikidata.org/prop/P20",
+          "quantifier": "not exists"
+        },
+        {
+          "string": "vivas",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q21075715",
+          "property": "http://www.wikidata.org/prop/P570",
+          "quantifier": "not exists"
+        },
+        {
+          "string": "viva",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q21075715",
+          "property": "http://www.wikidata.org/prop/P20",
+          "quantifier": "not exists"
+        },
+        {
+          "string": "viva",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q21075715",
+          "property": "http://www.wikidata.org/prop/P570",
+          "quantifier": "not exists"
+        },
+        {
+          "string": "dado su nombre a",
+          "language": "es",
+          "property": "http://www.wikidata.org/prop/P138",
+          "inverse": true
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P31/wdt:P279*/wdt:P460? wd:Q4830453 . ?sbj wdt:P17 wd:Q298 . ?sbj wdt:P749 ?obj . ?obj wdt:P17 wd:Q30 . }",
+      "answers": [
+        "Q1061176",
+        "Q132012721",
+        "Q16571026",
+        "Q3052066",
+        "Q4651363",
+        "Q5283104",
+        "Q55454561",
+        "Q55964511",
+        "Q69523460"
+      ],
+      "question": [
+        {
+          "string": "Which Chilean companies have U.S. parent companies?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "Chilean",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q298",
+          "property": "http://www.wikidata.org/prop/P17",
+          "mention": "implicit"
+        },
+        {
+          "string": "companies",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q783794"
+        },
+        {
+          "string": "companies",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q4830453"
+        },
+        {
+          "string": "companies",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q21980538"
+        },
+        {
+          "string": "parent companies",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q1956113",
+          "property": "http://www.wikidata.org/prop/P749"
+        },
+        {
+          "string": "U.S.",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q30",
+          "property": "http://www.wikidata.org/prop/P17",
+          "mention": "implicit"
+        },
+        {
+          "string": "empresas",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q783794"
+        },
+        {
+          "string": "empresas",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q4830453"
+        },
+        {
+          "string": "empresas",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q21980538"
+        },
+        {
+          "string": "empresa",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q783794"
+        },
+        {
+          "string": "empresa",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q4830453"
+        },
+        {
+          "string": "empresa",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q21980538"
+        },
+        {
+          "string": "empresa matriz",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q1956113",
+          "property": "http://www.wikidata.org/prop/P749"
+        },
+        {
+          "string": "chilenas",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q298",
+          "property": "http://www.wikidata.org/prop/P17",
+          "mention": "implicit"
+        },
+        {
+          "string": "estadounidense",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q30",
+          "property": "http://www.wikidata.org/prop/P17",
+          "mention": "implicit"
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "sparql": "ASK WHERE { ?sbj wdt:P57 wd:Q3772 . ?sbj wdt:P577 ?obj . ?sbj wdt:P31/wdt:P279* wd:Q11424 . FILTER(YEAR(?obj)=(YEAR(NOW())-1)) }",
+      "answers": [
+        true
+      ],
+      "question": [
+        {
+          "string": "Did Tarantino direct a movie last year?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "Tarantino",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q3772"
+        },
+        {
+          "string": "movie",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q11424"
+        },
+        {
+          "string": "direct",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q2137554",
+          "property": "http://www.wikidata.org/prop/P57"
+        },
+        {
+          "string": "year",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q577"
+        },
+        {
+          "string": "Dirigió",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q2137554",
+          "property": "http://www.wikidata.org/prop/P57"
+        },
+        {
+          "string": "Tarantino",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q3772"
+        },
+        {
+          "string": "película",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q11424"
+        },
+        {
+          "string": "año",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q577"
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "sparql": "SELECT ?sbj WHERE { { SELECT ?sbj (MIN(?obj) AS ?obj1) WHERE { ?sbj wdt:P31/wdt:P279* wd:Q11424 . ?sbj wdt:P577 ?obj . } GROUP BY ?sbj } ?sbj wdt:P166 ?obj2 . ?obj2 wdt:P31/wdt:P279* wd:Q19020 . FILTER(YEAR(NOW())-YEAR(?obj1)-IF(MONTH(NOW())>MONTH(?obj1),0,IF(MONTH(NOW())=MONTH(?obj1) && DAY(NOW())>=DAY(?obj1),0,1))< 10) } GROUP BY (?sbj) ORDER BY DESC(COUNT(DISTINCT ?obj2)) LIMIT 1",
+      "answers": [
+        "Q20856802"
+      ],
+      "question": [
+        {
+          "string": "Which movie of the last ten years has won the most Academy Awards?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "movie",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q11424"
+        },
+        {
+          "string": "ten",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q23806"
+        },
+        {
+          "string": "years",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q577"
+        },
+        {
+          "string": "years",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q24564698"
+        },
+        {
+          "string": "won",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q50000",
+          "property": "http://www.wikidata.org/prop/P166"
+        },
+        {
+          "string": "Academy Awards",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q19020"
+        },
+        {
+          "string": "película",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q11424"
+        },
+        {
+          "string": "diez",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q23806"
+        },
+        {
+          "string": "años",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q577"
+        },
+        {
+          "string": "años",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q24564698"
+        },
+        {
+          "string": "ganado",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q50000",
+          "property": "http://www.wikidata.org/prop/P166"
+        },
+        {
+          "string": "Premios Óscar",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q19020"
+        },
+        {
+          "string": "diez años",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q39911"
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "sparql": "SELECT ?sbj WHERE { { SELECT (MAX(?date) AS ?recent) { ?sbj p:P166 ?obj . ?obj ps:P166 wd:Q28835 . ?obj pq:P585 ?date . } } ?sbj p:P166 ?obj . ?obj ps:P166 wd:Q28835 . ?obj pq:P585 ?recent . }",
+      "answers": [
+        "Q15461028",
+        "Q19655060",
+        "Q23721911",
+        "Q32538394"
+      ],
+      "question": [
+        {
+          "string": "Who was the winner of the latest Fields Medal?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "winner",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q18560095",
+          "property": "http://www.wikidata.org/prop/P166",
+          "inverse": true
+        },
+        {
+          "string": "Fields Medal",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q28835"
+        },
+        {
+          "string": "Fields",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q315431"
+        },
+        {
+          "string": "Medal",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q131647"
+        },
+        {
+          "string": "Medal",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q618779"
+        },
+        {
+          "string": "galardonado",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q50000",
+          "property": "http://www.wikidata.org/prop/P166",
+          "inverse": true
+        },
+        {
+          "string": "galardonado",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q618779",
+          "property": "http://www.wikidata.org/prop/P166",
+          "inverse": true
+        },
+        {
+          "string": "galardonado",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q97453439",
+          "property": "http://www.wikidata.org/prop/P166",
+          "inverse": true
+        },
+        {
+          "string": "galardonada",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q50000",
+          "property": "http://www.wikidata.org/prop/P166",
+          "inverse": true
+        },
+        {
+          "string": "galardonada",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q618779",
+          "property": "http://www.wikidata.org/prop/P166",
+          "inverse": true
+        },
+        {
+          "string": "galardonada",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q97453439",
+          "property": "http://www.wikidata.org/prop/P166",
+          "inverse": true
+        },
+        {
+          "string": "Medalla Fields",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q28835"
+        },
+        {
+          "string": "Fields",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q315431"
+        },
+        {
+          "string": "Medalla",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q131647"
+        },
+        {
+          "string": "Medalla",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q618779"
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "sparql": "SELECT ?obj WHERE { wd:Q26505 wdt:P50 ?obj  }",
+      "answers": [
+        "Q23434"
+      ],
+      "question": [
+        {
+          "string": "Who wrote The Old Man and the Sea?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "The Old Man and the Sea",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q26505"
+        },
+        {
+          "string": "wrote",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q2250012",
+          "property": "http://www.wikidata.org/prop/P50",
+          "inverse": true
+        },
+        {
+          "string": "wrote",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q36180",
+          "property": "http://www.wikidata.org/prop/P50",
+          "inverse": true
+        },
+        {
+          "string": "El viejo y el mar",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q26505"
+        },
+        {
+          "string": "escribió",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q2250012",
+          "property": "http://www.wikidata.org/prop/P50",
+          "inverse": true
+        },
+        {
+          "string": "escribió",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q36180",
+          "property": "http://www.wikidata.org/prop/P50",
+          "inverse": true
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P31*/wdt:P279* wd:Q17558136 . ?sbj wdt:P921/wdt:P279* wd:Q395 . }",
+      "answers": [
+        "Q115556726",
+        "Q47490713",
+        "Q55100562",
+        "Q55345122",
+        "Q66565938"
+      ],
+      "question": [
+        {
+          "string": "Which YouTube channels talk about math?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "YouTube",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q866"
+        },
+        {
+          "string": "YouTube channels",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q17558136"
+        },
+        {
+          "string": "math",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q395"
+        },
+        {
+          "string": "channel",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q733553"
+        },
+        {
+          "string": "talk about",
+          "language": "en",
+          "property": "http://www.wikidata.org/prop/P921"
+        },
+        {
+          "string": "YouTube",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q866"
+        },
+        {
+          "string": "canales de YouTube",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q17558136"
+        },
+        {
+          "string": "matemáticas",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q395"
+        },
+        {
+          "string": "canales",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q733553"
+        },
+        {
+          "string": "hablan de",
+          "language": "es",
+          "property": "http://www.wikidata.org/prop/P921"
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "sparql": "SELECT ?sbj WHERE { ?sbj wdt:P2293 wd:Q17928040 }",
+      "answers": [
+        "Q1519482",
+        "Q21097867",
+        "Q61335"
+      ],
+      "question": [
+        {
+          "string": "What diseases are associated with the gene FGF14?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "diseases",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q12136"
+        },
+        {
+          "string": "gene",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q7187"
+        },
+        {
+          "string": "FGF14",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q17928040"
+        },
+        {
+          "string": "associated",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q744727",
+          "property": "http://www.wikidata.org/prop/P2293"
+        },
+        {
+          "string": "enfermedades",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q12136"
+        },
+        {
+          "string": "gen",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q7187"
+        },
+        {
+          "string": "FGF14",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q17928040"
+        },
+        {
+          "string": "asocian",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q744727",
+          "property": "http://www.wikidata.org/prop/P2293"
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P31/wdt:P279* wd:Q24039974 . ?sbj wdt:P59 wd:Q10576 . }",
+      "answers": [
+        "Q23986556"
+      ],
+      "question": [
+        {
+          "string": "What ultra-cool dwarfs have been found in the constellation Aquarius?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "ultra-cool dwarfs",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q24039974"
+        },
+        {
+          "string": "constellation",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q8928",
+          "property": "http://www.wikidata.org/prop/P59"
+        },
+        {
+          "string": "Aquarius",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q10576"
+        },
+        {
+          "string": "dwarfs",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q244393"
+        },
+        {
+          "string": "enanas ultra-frías",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q24039974"
+        },
+        {
+          "string": "constelación",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q8928",
+          "property": "http://www.wikidata.org/prop/P59"
+        },
+        {
+          "string": "Acuario",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q10576"
+        },
+        {
+          "string": "enanas",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q244393"
+        }
+      ]
+    },
+    {
+      "id": 119,
+      "sparql": "SELECT DISTINCT ?obj WHERE { wd:Q240509 wdt:P463 ?obj . ?obj wdt:P31/wdt:P279* wd:Q215380 }",
+      "answers": [
+        "Q1332134",
+        "Q188464",
+        "Q3100619"
+      ],
+      "question": [
+        {
+          "string": "Kim Deal played with which bands?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "Kim Deal",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q240509"
+        },
+        {
+          "string": "bands",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q215380"
+        },
+        {
+          "string": "played with",
+          "language": "en",
+          "property": "http://www.wikidata.org/prop/P463"
+        },
+        {
+          "string": "Kim Deal",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q240509"
+        },
+        {
+          "string": "bandas",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q215380"
+        },
+        {
+          "string": "ha tocado con",
+          "language": "es",
+          "property": "http://www.wikidata.org/prop/P463"
+        }
+      ]
+    },
+    {
+      "id": 120,
+      "sparql": "SELECT ?obj WHERE { wd:Q7251 wdt:P184 ?obj }",
+      "answers": [
+        "Q92741"
+      ],
+      "question": [
+        {
+          "string": "Who supervised the PhD of Alan Turing?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "Alan Turing",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q7251"
+        },
+        {
+          "string": "Turing",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q7251"
+        },
+        {
+          "string": "supervised the PhD",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q363802",
+          "property": "http://www.wikidata.org/prop/P184",
+          "inverse": true
+        },
+        {
+          "string": "PhD",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q752297"
+        },
+        {
+          "string": "supervised",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q101405849",
+          "property": "http://www.wikidata.org/prop/P7604",
+          "inverse": true
+        },
+        {
+          "string": "Alan Turing",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q7251"
+        },
+        {
+          "string": "Turing",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q7251"
+        },
+        {
+          "string": "dirigió el doctorado",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q363802",
+          "property": "http://www.wikidata.org/prop/P184",
+          "inverse": true
+        },
+        {
+          "string": "doctorado",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q752297"
+        },
+        {
+          "string": "dirigió",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q101405849",
+          "property": "http://www.wikidata.org/prop/P7604",
+          "inverse": true
+        }
+      ]
+    },
+    {
+      "id": 121,
+      "sparql": "SELECT DISTINCT ?sbj { ?sbj wdt:P31/wdt:P276* wd:Q11424 . ?sbj wdt:P57 wd:Q21078321 . MINUS { ?sbj wdt:P1657 wd:Q18665344 } }",
+      "answers": [
+        "Q122741016",
+        "Q19057475",
+        "Q23894629"
+      ],
+      "question": [
+        {
+          "string": "Which movies directed by Chloé Zhao are not MPAA-rated R?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "movies",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q11424"
+        },
+        {
+          "string": "Chloé Zhao",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q21078321"
+        },
+        {
+          "string": "directed",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q2526255",
+          "property": "http://www.wikidata.org/prop/P57"
+        },
+        {
+          "string": "direct",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q2526255",
+          "property": "http://www.wikidata.org/prop/P57"
+        },
+        {
+          "string": "MPAA-rated",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q23660208",
+          "property": "http://www.wikidata.org/prop/P1687"
+        },
+        {
+          "string": "rated",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q23660208",
+          "property": "http://www.wikidata.org/prop/P1687"
+        },
+        {
+          "string": "R",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q18665344"
+        },
+        {
+          "string": "MPAA",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q676222"
+        },
+        {
+          "string": "películas",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q11424"
+        },
+        {
+          "string": "dirigidas",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q2526255",
+          "property": "http://www.wikidata.org/prop/P57"
+        },
+        {
+          "string": "Chloé Zhao",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q21078321"
+        },
+        {
+          "string": "clasificación MPAA",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q23660208",
+          "property": "http://www.wikidata.org/prop/P1687"
+        },
+        {
+          "string": "R",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q18665344"
+        },
+        {
+          "string": "MPAA",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q676222"
+        }
+      ]
+    },
+    {
+      "id": 122,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P31/wdt:P279* wd:Q178885 . ?sbj wdt:P31*/wdt:P279*/wdt:P2925 wd:Q9081 . ?sbj wdt:P1049 wd:Q9089 . }",
+      "answers": [
+        "Q58838"
+      ],
+      "question": [
+        {
+          "string": "Who is the Hindu deity of knowledge?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "Hindu",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q9089"
+        },
+        {
+          "string": "deity",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q178885"
+        },
+        {
+          "string": "knowledge",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q9081"
+        },
+        {
+          "string": "deity of",
+          "language": "en",
+          "property": "http://www.wikidata.org/prop/P2925"
+        },
+        {
+          "string": "deidad",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q178885"
+        },
+        {
+          "string": "hindú",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q9089"
+        },
+        {
+          "string": "conocimiento",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q9081"
+        }
+      ]
+    },
+    {
+      "id": 123,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P136 wd:Q471839 . ?sbj wdt:P161 wd:Q125017 . ?sbj wdt:P276*/wdt:P31 wd:Q11424 }",
+      "answers": [
+        "Q107896563",
+        "Q247516",
+        "Q276523",
+        "Q491800",
+        "Q494985"
+      ],
+      "question": [
+        {
+          "string": "Which science fiction movies star Uma Thurman?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "science fiction movies",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q471839"
+        },
+        {
+          "string": "Uma Thurman",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q125017"
+        },
+        {
+          "string": "movies",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q11424"
+        },
+        {
+          "string": "star",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q1765879",
+          "property": "http://www.wikidata.org/prop/P161"
+        },
+        {
+          "string": "science fiction",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q24925"
+        },
+        {
+          "string": "fiction",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q8253"
+        },
+        {
+          "string": "Uma Thurman",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q125017"
+        },
+        {
+          "string": "películas de ciencia ficción",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q471839"
+        },
+        {
+          "string": "protagonizó",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q1765879",
+          "property": "http://www.wikidata.org/prop/P161"
+        },
+        {
+          "string": "películas",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q11424"
+        },
+        {
+          "string": "ciencia ficción",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q24925"
+        },
+        {
+          "string": "ficción",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q8253"
+        }
+      ]
+    },
+    {
+      "id": 124,
+      "sparql": "SELECT DISTINCT ?sbj WHERE { ?sbj wdt:P31/wdt:P279* wd:Q3932296 . ?sbj wdt:P31/wdt:P279* wd:Q1130645 . }",
+      "answers": [
+        "Q192490",
+        "Q19646047",
+        "Q261744",
+        "Q30100408",
+        "Q30100559",
+        "Q4778914",
+        "Q5627844",
+        "Q56375088",
+        "Q60463",
+        "Q669257",
+        "Q6898976",
+        "Q787177",
+        "Q7935239",
+        "Q8039438",
+        "Q850",
+        "Q97187861"
+      ],
+      "question": [
+        {
+          "string": "Which relational database management systems are open source?",
+          "language": "en"
+        }
+      ],
+      "mentions": [
+        {
+          "string": "relational database management systems",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q3932296"
+        },
+        {
+          "string": "open source",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q39162"
+        },
+        {
+          "string": "relational database",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q192588"
+        },
+        {
+          "string": "database",
+          "language": "en",
+          "entity": "http://www.wikidata.org/entity/Q8513"
+        },
+        {
+          "string": "sistemas de gestión de bases de datos relacionales",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q3932296"
+        },
+        {
+          "string": "bases de datos relacionales",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q192588"
+        },
+        {
+          "string": "bases de datos",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q8513"
+        },
+        {
+          "string": "fuente abierta",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q39162"
+        },
+        {
+          "string": "datos",
+          "language": "es",
+          "entity": "http://www.wikidata.org/entity/Q42848"
+        }
+      ]
+    }
+  ]
+}

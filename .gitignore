@@ -1,0 +1,27 @@
+# Byte-compiled / caches
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# LaTeX build artefacts
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.toc
+paper/*.bbl
+paper/*.blg
+paper/*.abs
+paper/*.xmpi
+paper/*.xmpdata
+paper/main.abs
+
+# Runtime outputs
+logs/
+res/
+*.json.tmp
+
+# OS
+.DS_Store

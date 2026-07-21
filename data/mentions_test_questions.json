@@ -1,0 +1,3968 @@
+{
+    "dataset": {
+        "id": "wikikgqa2026-test-with-mentions"
+    },
+    "questions": [
+        {
+            "id": 4,
+            "question": [
+                {
+                    "string": "From what epoch does the Burgess shale originate?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿De qué época procede la formación del Esquisto de Burgess?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "Burgess shale",
+                    "entity": "Q852085"
+                },
+                {
+                    "language": "en",
+                    "string": "epoch",
+                    "entity": "Q754897",
+                    "property": "P31"
+                },
+                {
+                    "language": "en",
+                    "string": "originate",
+                    "property": "P523"
+                },
+                {
+                    "language": "es",
+                    "string": "Esquisto de Burgess",
+                    "entity": "Q852085"
+                },
+                {
+                    "language": "es",
+                    "string": "época",
+                    "entity": "Q754897",
+                    "property": "P31"
+                },
+                {
+                    "language": "es",
+                    "string": "procede",
+                    "property": "P523"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 5,
+            "question": [
+                {
+                    "string": "What is the profession of Nikola Streiber?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿A qué se dedica Nikola Streiber?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "Nikola Streiber",
+                    "entity": "Q26713190"
+                },
+                {
+                    "language": "en",
+                    "string": "profession",
+                    "property": "P106"
+                },
+                {
+                    "language": "es",
+                    "string": "Nikola Streiber",
+                    "entity": "Q26713190"
+                },
+                {
+                    "language": "es",
+                    "string": "se dedica",
+                    "property": "P106"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 6,
+            "question": [
+                {
+                    "string": "Which literary figures had their books burned during the Nazi book burning event of 1933?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿A qué figuras literarias les quemaron sus libros durante la quema de libros nazi de 1933?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "Nazi book burning event of 1933",
+                    "entity": "Q3927614"
+                },
+                {
+                    "language": "en",
+                    "string": "books burned",
+                    "entity": "Q1851760"
+                },
+                {
+                    "language": "es",
+                    "string": "quema de libros nazi de 1933",
+                    "entity": "Q3927614"
+                },
+                {
+                    "language": "es",
+                    "string": "quemaron sus libros",
+                    "entity": "Q1851760"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 7,
+            "question": [
+                {
+                    "string": "What works of art feature the doppelgänger motif?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Qué obras de arte incluyen el motivo del doppelgänger?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "works of art",
+                    "property": "P31",
+                    "entity": "Q838948"
+                },
+                {
+                    "language": "en",
+                    "string": "feature",
+                    "property": "P921"
+                },
+                {
+                    "language": "en",
+                    "string": "feature",
+                    "property": "P6962"
+                },
+                {
+                    "language": "en",
+                    "string": "doppelgänger motif",
+                    "entity": "Q461363"
+                },
+                {
+                    "language": "es",
+                    "string": "obras de arte",
+                    "property": "P31",
+                    "entity": "Q838948"
+                },
+                {
+                    "language": "es",
+                    "string": "incluyen",
+                    "property": "P921"
+                },
+                {
+                    "language": "es",
+                    "string": "incluyen",
+                    "property": "P6962"
+                },
+                {
+                    "language": "es",
+                    "string": "doppelgänger",
+                    "entity": "Q461363"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 13,
+            "question": [
+                {
+                    "string": "Which scientists working on the Manhattan project were convicted of espionage?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Qué científicos que trabajaron en el Proyecto Manhattan fueron condenados por espionaje?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "Manhattan project",
+                    "entity": "Q127050"
+                },
+                {
+                    "language": "en",
+                    "string": "espionage",
+                    "entity": "Q165950"
+                },
+                {
+                    "language": "en",
+                    "string": "scientists",
+                    "property": "P106",
+                    "entity": "Q901"
+                },
+                {
+                    "language": "en",
+                    "string": "convicted of",
+                    "property": "P1399"
+                },
+                {
+                    "language": "en",
+                    "string": "working on",
+                    "property": "P1344"
+                },
+                {
+                    "language": "es",
+                    "string": "Proyecto Manhattan",
+                    "entity": "Q127050"
+                },
+                {
+                    "language": "es",
+                    "string": "espionaje",
+                    "entity": "Q165950"
+                },
+                {
+                    "language": "es",
+                    "string": "científicos",
+                    "entity": "Q901",
+                    "property": "P106"
+                },
+                {
+                    "language": "es",
+                    "string": "condenados por",
+                    "property": "P1399"
+                },
+                {
+                    "language": "es",
+                    "string": "trabajaron en",
+                    "property": "P1344"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 16,
+            "question": [
+                {
+                    "string": "In which U.S. state is the Bettman archive located?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿En qué estado de EE. UU. se encuentra el archivo Bettman?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "Bettman archive",
+                    "entity": "Q850178"
+                },
+                {
+                    "language": "en",
+                    "string": "located",
+                    "property": "P276"
+                },
+                {
+                    "language": "en",
+                    "string": "located",
+                    "property": "P131"
+                },
+                {
+                    "language": "en",
+                    "string": "U.S. state",
+                    "entity": "Q35657",
+                    "property": "P31"
+                },
+                {
+                    "language": "es",
+                    "string": "archivo Bettman",
+                    "entity": "Q850178"
+                },
+                {
+                    "language": "es",
+                    "string": "se encuentra",
+                    "property": "P276"
+                },
+                {
+                    "language": "es",
+                    "string": "se encuentra",
+                    "property": "P131"
+                },
+                {
+                    "language": "es",
+                    "string": "estado de EE. UU.",
+                    "entity": "Q35657",
+                    "property": "P31"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 21,
+            "question": [
+                {
+                    "string": "The works of which anthropologists are credited as serving the basis for the movie Embrace of the Serpent?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Las obras de qué antropólogos se consideran la base de la película El abrazo de la serpiente?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "Embrace of the Serpent",
+                    "entity": "Q19824642"
+                },
+                {
+                    "language": "en",
+                    "string": "basis for",
+                    "property": "P1877",
+                    "inverse": true
+                },
+                {
+                    "language": "en",
+                    "string": "anthropologists",
+                    "entity": "Q4773904",
+                    "property": "P106"
+                },
+                {
+                    "language": "es",
+                    "string": "El abrazo de la serpiente",
+                    "entity": "Q19824642"
+                },
+                {
+                    "language": "es",
+                    "string": "la base de",
+                    "property": "P1877",
+                    "inverse": true
+                },
+                {
+                    "language": "es",
+                    "string": "antropólogos",
+                    "entity": "Q4773904",
+                    "property": "P106"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 22,
+            "question": [
+                {
+                    "string": "What is the documented age of the oldest tree in the world?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Cuál es la edad documentada del árbol más antiguo del mundo?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "oldest",
+                    "property": "P569",
+                    "superlative": "max"
+                },
+                {
+                    "language": "en",
+                    "string": "tree",
+                    "entity": "Q10884",
+                    "property": "P31"
+                },
+                {
+                    "language": "es",
+                    "string": "más antiguo",
+                    "property": "P569",
+                    "superlative": "max"
+                },
+                {
+                    "language": "es",
+                    "string": "árbol",
+                    "entity": "Q10884",
+                    "property": "P31"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 23,
+            "question": [
+                {
+                    "string": "Which countries contain nuclear fusion reactors?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Qué países cuentan con reactores de fusión nuclear?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "nuclear fusion reactors",
+                    "entity": "Q11536219",
+                    "property": "P31"
+                },
+                {
+                    "language": "en",
+                    "string": "countries",
+                    "property": "P17"
+                },
+                {
+                    "language": "es",
+                    "string": "reactores de fusión nuclear",
+                    "entity": "Q11536219",
+                    "property": "P31"
+                },
+                {
+                    "language": "es",
+                    "string": "países",
+                    "property": "P17"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 25,
+            "question": [
+                {
+                    "string": "Which is the oldest journal in Physics still in publication?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Cuál es la revista de física más antigua que sigue publicándose?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "oldest",
+                    "property": "P571",
+                    "superlative": "min"
+                },
+                {
+                    "language": "en",
+                    "string": "still in publication",
+                    "property": "P576",
+                    "quantifier": "not exists"
+                },
+                {
+                    "language": "en",
+                    "string": "journal",
+                    "property": "P31",
+                    "entity": "Q49850"
+                },
+                {
+                    "language": "en",
+                    "string": "in Physics",
+                    "property": "P101",
+                    "entity": "Q413"
+                },
+                {
+                    "language": "en",
+                    "string": "in Physics",
+                    "property": "P921",
+                    "entity": "Q413"
+                },
+                {
+                    "language": "es",
+                    "string": "más antigua",
+                    "property": "P571",
+                    "superlative": "min"
+                },
+                {
+                    "language": "es",
+                    "string": "sigue publicándose",
+                    "property": "P576",
+                    "quantifier": "not exists"
+                },
+                {
+                    "language": "es",
+                    "string": "revista",
+                    "property": "P31",
+                    "entity": "Q49850"
+                },
+                {
+                    "language": "es",
+                    "string": "de física",
+                    "entity": "Q413",
+                    "property": "P101"
+                },
+                {
+                    "language": "es",
+                    "string": "de física",
+                    "entity": "Q413",
+                    "property": "P921"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 28,
+            "question": [
+                {
+                    "string": "Who created the Wayback Machine?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Quién creó Wayback Machine?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "Wayback Machine",
+                    "entity": "Q648266"
+                },
+                {
+                    "language": "en",
+                    "string": "created",
+                    "property": "P170",
+                    "inverse": true
+                },
+                {
+                    "language": "es",
+                    "string": "Wayback Machine",
+                    "entity": "Q648266"
+                },
+                {
+                    "language": "es",
+                    "string": "creó",
+                    "property": "P170",
+                    "inverse": true
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 29,
+            "question": [
+                {
+                    "string": "Which programming languages are used in the Wayback Machine?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Qué lenguajes de programación se utilizan en la Wayback Machine?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "Wayback Machine",
+                    "entity": "Q648266"
+                },
+                {
+                    "language": "en",
+                    "string": "programming languages",
+                    "property": "P277"
+                },
+                {
+                    "language": "es",
+                    "string": "Wayback Machine",
+                    "entity": "Q648266"
+                },
+                {
+                    "language": "es",
+                    "string": "lenguajes de programación",
+                    "property": "P277"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 31,
+            "question": [
+                {
+                    "string": "Which books written by Arthur Conan Doyle feature Sherlock Holmes?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿En qué libros escritos por Arthur Conan Doyle aparece Sherlock Holmes?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "books",
+                    "property": "P31",
+                    "entity": "Q7725634"
+                },
+                {
+                    "language": "en",
+                    "string": "Sherlock Holmes",
+                    "entity": "Q4653"
+                },
+                {
+                    "language": "en",
+                    "string": "Arthur Conan Doyle",
+                    "entity": "Q35610"
+                },
+                {
+                    "language": "en",
+                    "string": "written by",
+                    "property": "P50"
+                },
+                {
+                    "language": "en",
+                    "string": "feature",
+                    "property": "P674"
+                },
+                {
+                    "language": "es",
+                    "string": "libros",
+                    "property": "P31",
+                    "entity": "Q7725634"
+                },
+                {
+                    "language": "es",
+                    "string": "Sherlock Holmes",
+                    "entity": "Q4653"
+                },
+                {
+                    "language": "es",
+                    "string": "Arthur Conan Doyle",
+                    "entity": "Q35610"
+                },
+                {
+                    "language": "es",
+                    "string": "escritos por",
+                    "property": "P50"
+                },
+                {
+                    "language": "es",
+                    "string": "aparece",
+                    "property": "P674"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 34,
+            "question": [
+                {
+                    "string": "Are Erasmus Darwin and Charles Darwin related?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Son familia Erasmus Darwin y Charles Darwin?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "Charles Darwin",
+                    "entity": "Q1035"
+                },
+                {
+                    "language": "en",
+                    "string": "Erasmus Darwin",
+                    "entity": "Q234050"
+                },
+                {
+                    "language": "en",
+                    "string": "related",
+                    "property": "P1038"
+                },
+                {
+                    "language": "es",
+                    "string": "Charles Darwin",
+                    "entity": "Q1035"
+                },
+                {
+                    "language": "es",
+                    "string": "Erasmus Darwin",
+                    "entity": "Q234050"
+                },
+                {
+                    "language": "es",
+                    "string": "familia",
+                    "property": "P1038"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 37,
+            "question": [
+                {
+                    "string": "Which record labels did Arturo Toscanini perform for?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Para qué sellos discográficos fue artista Arturo Toscanini?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "Arturo Toscanini",
+                    "entity": "Q13003"
+                },
+                {
+                    "language": "en",
+                    "string": "record labels",
+                    "property": "P264"
+                },
+                {
+                    "language": "es",
+                    "string": "Arturo Toscanini",
+                    "entity": "Q13003"
+                },
+                {
+                    "language": "es",
+                    "string": "sellos discográficos",
+                    "property": "P264"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 39,
+            "question": [
+                {
+                    "string": "What is the key signature of Brahms' Op. 98?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Cuál es la tonalidad de la Op. 98 de Brahms?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "Op.",
+                    "property": "P10855"
+                },
+                {
+                    "language": "en",
+                    "string": "Op.",
+                    "property": "P528"
+                },
+                {
+                    "language": "en",
+                    "string": "Brahms'",
+                    "entity": "Q7294",
+                    "property": "P86"
+                },
+                {
+                    "language": "en",
+                    "string": "key signature",
+                    "property": "P826"
+                },
+                {
+                    "language": "es",
+                    "string": "Op.",
+                    "property": "P10855"
+                },
+                {
+                    "language": "es",
+                    "string": "Op.",
+                    "property": "P528"
+                },
+                {
+                    "language": "es",
+                    "string": "Brahms",
+                    "entity": "Q7294",
+                    "property": "P86"
+                },
+                {
+                    "language": "es",
+                    "string": "tonalidad",
+                    "property": "P826"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 41,
+            "question": [
+                {
+                    "string": "Which artwork inspired Debussy's La Mer?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Qué obra de arte inspiró La Mer de Debussy?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "La Mer",
+                    "entity": "Q1057812"
+                },
+                {
+                    "language": "en",
+                    "string": "Debussy's",
+                    "entity": "Q4700"
+                },
+                {
+                    "language": "en",
+                    "string": "inspired",
+                    "property": "P737",
+                    "inverse": true
+                },
+                {
+                    "language": "en",
+                    "string": "inspired",
+                    "property": "P1877",
+                    "inverse": true
+                },
+                {
+                    "language": "en",
+                    "string": "artwork",
+                    "entity": "Q838948",
+                    "property": "P31"
+                },
+                {
+                    "language": "es",
+                    "string": "La Mer",
+                    "entity": "Q1057812"
+                },
+                {
+                    "language": "es",
+                    "string": "Debussy",
+                    "entity": "Q4700"
+                },
+                {
+                    "language": "es",
+                    "string": "inspiró",
+                    "property": "P737",
+                    "inverse": true
+                },
+                {
+                    "language": "es",
+                    "string": "inspiró",
+                    "property": "P1877",
+                    "inverse": true
+                },
+                {
+                    "language": "es",
+                    "string": "obra de arte",
+                    "entity": "Q838948",
+                    "property": "P31"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 42,
+            "question": [
+                {
+                    "string": "Which compositions by Debussy are written for a clarinet?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Qué composiciones de Debussy están escritas para clarinete?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "Debussy",
+                    "entity": "Q4700"
+                },
+                {
+                    "language": "en",
+                    "string": "clarinet",
+                    "entity": "Q8343"
+                },
+                {
+                    "language": "en",
+                    "string": "written for",
+                    "property": "P870"
+                },
+                {
+                    "language": "en",
+                    "string": "compositions by",
+                    "property": "P86"
+                },
+                {
+                    "language": "es",
+                    "string": "Debussy",
+                    "entity": "Q4700"
+                },
+                {
+                    "language": "es",
+                    "string": "clarinete",
+                    "entity": "Q8343"
+                },
+                {
+                    "language": "es",
+                    "string": "escritas para",
+                    "property": "P870"
+                },
+                {
+                    "language": "es",
+                    "string": "composiciones de",
+                    "property": "P86"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 44,
+            "question": [
+                {
+                    "string": "Which films' scores are composed by Philip Glass?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Las bandas sonoras de qué películas ha compuesto Philip Glass?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "film",
+                    "property": "P31",
+                    "entity": "Q11424"
+                },
+                {
+                    "language": "en",
+                    "string": "Philip Glass",
+                    "entity": "Q189729"
+                },
+                {
+                    "language": "en",
+                    "string": "composed by",
+                    "property": "P86"
+                },
+                {
+                    "language": "es",
+                    "string": "películas",
+                    "property": "P31",
+                    "entity": "Q11424"
+                },
+                {
+                    "language": "es",
+                    "string": "Philip Glass",
+                    "entity": "Q189729"
+                },
+                {
+                    "language": "es",
+                    "string": "ha compuesto",
+                    "property": "P86"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 46,
+            "question": [
+                {
+                    "string": "Where was Gertrude Bell buried?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Dónde fue enterrada Gertrude Bell?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "Gertrude Bell",
+                    "entity": "Q231360"
+                },
+                {
+                    "language": "en",
+                    "string": "buried",
+                    "property": "P119"
+                },
+                {
+                    "language": "es",
+                    "string": "Gertrude Bell",
+                    "entity": "Q231360"
+                },
+                {
+                    "language": "es",
+                    "string": "enterrada",
+                    "property": "P119"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 47,
+            "question": [
+                {
+                    "string": "Which poets are buried in Montparnasse Cemetery?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Qué poetas están enterrados en el cementerio de Montparnasse?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "poets",
+                    "property": "P106",
+                    "entity": "Q49757"
+                },
+                {
+                    "language": "en",
+                    "string": "Montparnasse Cemetery",
+                    "entity": "Q272208"
+                },
+                {
+                    "language": "en",
+                    "string": "buried in",
+                    "property": "P119"
+                },
+                {
+                    "language": "es",
+                    "string": "poetas",
+                    "entity": "Q49757",
+                    "property": "P106"
+                },
+                {
+                    "language": "es",
+                    "string": "cementerio de Montparnasse",
+                    "entity": "Q272208"
+                },
+                {
+                    "language": "es",
+                    "string": "enterrados en",
+                    "property": "P119"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 48,
+            "question": [
+                {
+                    "string": "Which geologists have died during a volcanic eruption?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Qué geólogos han fallecido durante una erupción volcánica?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "geologists",
+                    "property": "P106",
+                    "entity": "Q520549"
+                },
+                {
+                    "language": "en",
+                    "string": "volcanic eruption",
+                    "entity": "Q29436423"
+                },
+                {
+                    "language": "en",
+                    "string": "died",
+                    "property": "P509"
+                },
+                {
+                    "language": "es",
+                    "string": "geólogos",
+                    "entity": "Q520549",
+                    "property": "P106"
+                },
+                {
+                    "language": "es",
+                    "string": "erupción volcánica",
+                    "entity": "Q29436423"
+                },
+                {
+                    "language": "es",
+                    "string": "fallecido",
+                    "property": "P509"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 50,
+            "question": [
+                {
+                    "string": "What is the earliest dated mummy found in a peat bog?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Cuál es la momia más antigua encontrada en una turbera?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "mummy found in a peat bog",
+                    "entity": "Q199414",
+                    "property": "P31"
+                },
+                {
+                    "language": "en",
+                    "string": "earliest dated",
+                    "property": "P1319"
+                },
+                {
+                    "language": "en",
+                    "string": "earliest dated",
+                    "property": "P570",
+                    "superlative": "min"
+                },
+                {
+                    "language": "es",
+                    "string": "momia * encontrada en una turbera",
+                    "entity": "Q199414",
+                    "property": "P31"
+                },
+                {
+                    "language": "es",
+                    "string": "más antigua",
+                    "property": "P1319"
+                },
+                {
+                    "language": "es",
+                    "string": "más antigua",
+                    "property": "P570",
+                    "superlative": "min"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 52,
+            "question": [
+                {
+                    "string": "What is the Erdos number of Maryam Mirzakhani?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Cuál es el número de Erdős de Maryam Mirzakhani?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "Erdos number",
+                    "property": "P2021"
+                },
+                {
+                    "language": "en",
+                    "string": "Maryam Mirzakhani",
+                    "entity": "Q1771279"
+                },
+                {
+                    "language": "es",
+                    "string": "número de Erdős",
+                    "property": "P2021"
+                },
+                {
+                    "language": "es",
+                    "string": "Maryam Mirzakhani",
+                    "entity": "Q1771279"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 55,
+            "question": [
+                {
+                    "string": "How many moons orbit the planet Saturn?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Cuántas lunas orbitan alrededor del planeta Saturno?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "moons",
+                    "entity": "Q2537",
+                    "property": "P31"
+                },
+                {
+                    "language": "en",
+                    "string": "Saturn",
+                    "entity": "Q193"
+                },
+                {
+                    "language": "en",
+                    "string": "orbit",
+                    "property": "P397"
+                },
+                {
+                    "language": "es",
+                    "string": "lunas",
+                    "entity": "Q2537",
+                    "property": "P31"
+                },
+                {
+                    "language": "es",
+                    "string": "Saturno",
+                    "entity": "Q193"
+                },
+                {
+                    "language": "es",
+                    "string": "orbitan",
+                    "property": "P397"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 58,
+            "question": [
+                {
+                    "string": "Which actor has the highest number of film appearances as James Bond?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Qué actor tiene el mayor número de apariciones en películas interpretando a James Bond?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "actor",
+                    "property": "P175"
+                },
+                {
+                    "language": "en",
+                    "string": "James Bond",
+                    "entity": "Q2009573"
+                },
+                {
+                    "language": "en",
+                    "string": "film",
+                    "property": "P31",
+                    "entity": "Q11424"
+                },
+                {
+                    "language": "es",
+                    "string": "actor",
+                    "property": "P175"
+                },
+                {
+                    "language": "es",
+                    "string": "James Bond",
+                    "entity": "Q2009573"
+                },
+                {
+                    "language": "es",
+                    "string": "películas",
+                    "entity": "Q11424",
+                    "property": "P31"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 59,
+            "question": [
+                {
+                    "string": "Which actor played the role of James Bond for the longest time-span?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Qué actor interpretó el papel de James Bond durante más tiempo?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "James Bond",
+                    "entity": "Q2009573"
+                },
+                {
+                    "language": "en",
+                    "string": "actor",
+                    "property": "P175"
+                },
+                {
+                    "language": "en",
+                    "string": "played the role of",
+                    "property": "P175",
+                    "inverse": true
+                },
+                {
+                    "language": "en",
+                    "string": "longest time-span",
+                    "property": "P577",
+                    "superlative": "max"
+                },
+                {
+                    "language": "es",
+                    "string": "James Bond",
+                    "entity": "Q2009573"
+                },
+                {
+                    "language": "es",
+                    "string": "actor",
+                    "property": "P175"
+                },
+                {
+                    "language": "es",
+                    "string": "interpretó el papel de",
+                    "property": "P175",
+                    "inverse": true
+                },
+                {
+                    "language": "es",
+                    "string": "durante más tiempo",
+                    "property": "P577",
+                    "superlative": "max"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 60,
+            "question": [
+                {
+                    "string": "Who solved the 4CT problem?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Quién resolvió el problema 4CT?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "4CT problem",
+                    "entity": "Q184410"
+                },
+                {
+                    "language": "en",
+                    "string": "solved",
+                    "property": "P1318"
+                },
+                {
+                    "language": "es",
+                    "string": "problema 4CT",
+                    "entity": "Q184410"
+                },
+                {
+                    "language": "es",
+                    "string": "resolvió",
+                    "property": "P1318"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 61,
+            "question": [
+                {
+                    "string": "Who operated Colonia Dignidad?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Quién operaba Colonia Dignidad?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "Colonia Dignidad",
+                    "entity": "Q701176"
+                },
+                {
+                    "language": "en",
+                    "string": "operated",
+                    "property": "P169"
+                },
+                {
+                    "language": "es",
+                    "string": "Colonia Dignidad",
+                    "entity": "Q701176"
+                },
+                {
+                    "language": "es",
+                    "string": "operaba",
+                    "property": "P169"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 62,
+            "question": [
+                {
+                    "string": "How long is Sátántangó?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Cuánto dura Sátántangó?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "Sátántangó",
+                    "entity": "Q53481"
+                },
+                {
+                    "language": "en",
+                    "string": "long",
+                    "property": "P2047"
+                },
+                {
+                    "language": "es",
+                    "string": "Sátántangó",
+                    "entity": "Q53481"
+                },
+                {
+                    "language": "es",
+                    "string": "dura",
+                    "property": "P2047"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 63,
+            "question": [
+                {
+                    "string": "What was the motto of the Knights templar?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Cuál era el lema de los Caballeros Templarios?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "Knights templar",
+                    "entity": "Q41300"
+                },
+                {
+                    "language": "en",
+                    "string": "motto",
+                    "property": "P1451"
+                },
+                {
+                    "language": "es",
+                    "string": "Caballeros Templarios",
+                    "entity": "Q41300"
+                },
+                {
+                    "language": "es",
+                    "string": "lema",
+                    "property": "P1451"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 64,
+            "question": [
+                {
+                    "string": "Which moves initiate the Speilmann Gambit in chess?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Qué jugadas inician la apertura Speilmann en el ajedrez?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "Speilmann Gambit",
+                    "entity": "Q1814012"
+                },
+                {
+                    "language": "en",
+                    "string": "moves initiate",
+                    "property": "P5286"
+                },
+                {
+                    "language": "es",
+                    "string": "apertura Speilmann",
+                    "entity": "Q1814012"
+                },
+                {
+                    "language": "es",
+                    "string": "jugadas inician",
+                    "property": "P5286"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 65,
+            "question": [
+                {
+                    "string": "Which genes are linked to Type 2 Diabetes?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Qué genes están relacionados con la diabetes tipo 2?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "Type 2 Diabetes",
+                    "entity": "Q3025883"
+                },
+                {
+                    "language": "en",
+                    "string": "genes are linked to",
+                    "property": "P2293",
+                    "inverse": true
+                },
+                {
+                    "language": "es",
+                    "string": "diabetes tipo 2",
+                    "entity": "Q3025883"
+                },
+                {
+                    "language": "es",
+                    "string": "genes están relacionados con",
+                    "property": "P2293",
+                    "inverse": true
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 66,
+            "question": [
+                {
+                    "string": "What was the latest movie shot entirely in black-and-white that won an Academy Award for Best International Feature film?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Cuál fue la última película rodada íntegramente en blanco y negro que ganó un Óscar a la mejor película internacional?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "Academy Award for Best International Feature film",
+                    "entity": "Q105304"
+                },
+                {
+                    "language": "en",
+                    "string": "won",
+                    "property": "P166"
+                },
+                {
+                    "language": "en",
+                    "string": "black-and-white",
+                    "property": "P462",
+                    "entity": "Q838368"
+                },
+                {
+                    "language": "en",
+                    "string": "latest",
+                    "property": "P585",
+                    "superlative": "max"
+                },
+                {
+                    "language": "es",
+                    "string": "Óscar a la mejor película internacional",
+                    "entity": "Q105304"
+                },
+                {
+                    "language": "es",
+                    "string": "ganó",
+                    "property": "P166"
+                },
+                {
+                    "language": "es",
+                    "string": "blanco y negro",
+                    "entity": "Q838368",
+                    "property": "P462"
+                },
+                {
+                    "language": "es",
+                    "string": "última",
+                    "property": "P585",
+                    "superlative": "max"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 70,
+            "question": [
+                {
+                    "string": "Who was US president before Donald Trump?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Quién fue el presidente de Estados Unidos antes de Donald Trump?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "Donald Trump",
+                    "entity": "Q22686"
+                },
+                {
+                    "language": "en",
+                    "string": "US president",
+                    "entity": "Q11696"
+                },
+                {
+                    "language": "en",
+                    "string": "before",
+                    "property": "P1365"
+                },
+                {
+                    "language": "es",
+                    "string": "Donald Trump",
+                    "entity": "Q22686"
+                },
+                {
+                    "language": "es",
+                    "string": "presidente de Estados Unidos",
+                    "entity": "Q11696"
+                },
+                {
+                    "language": "es",
+                    "string": "antes de",
+                    "property": "P1365"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 72,
+            "question": [
+                {
+                    "string": "Which films credit Spielberg solely as a director?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿En qué películas aparece Spielberg únicamente como director?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "director",
+                    "property": "P57"
+                },
+                {
+                    "language": "en",
+                    "string": "Spielberg",
+                    "entity": "Q8877"
+                },
+                {
+                    "language": "en",
+                    "string": "films",
+                    "entity": "Q11424",
+                    "property": "P31"
+                },
+                {
+                    "language": "es",
+                    "string": "director",
+                    "property": "P57"
+                },
+                {
+                    "language": "es",
+                    "string": "Spielberg",
+                    "entity": "Q8877"
+                },
+                {
+                    "language": "es",
+                    "string": "películas",
+                    "entity": "Q11424",
+                    "property": "P31"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 74,
+            "question": [
+                {
+                    "string": "Which country contains the Museum of Innocence?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿En qué país se encuentra el Museo de la Inocencia?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "Museum of Innocence",
+                    "entity": "Q15961492"
+                },
+                {
+                    "language": "en",
+                    "string": "country",
+                    "property": "P17"
+                },
+                {
+                    "language": "es",
+                    "string": "Museo de la Inocencia",
+                    "entity": "Q15961492"
+                },
+                {
+                    "language": "es",
+                    "string": "país",
+                    "property": "P17"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 75,
+            "question": [
+                {
+                    "string": "Which smartphone brands are of Chinese origin?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Qué marcas de teléfonos inteligentes son de origen chino?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "smartphone brands",
+                    "property": "P31",
+                    "entity": "Q22645"
+                },
+                {
+                    "language": "en",
+                    "string": "Chinese",
+                    "property": "P17",
+                    "entity": "Q148"
+                },
+                {
+                    "language": "en",
+                    "string": "origin",
+                    "property": "P176"
+                },
+                {
+                    "language": "es",
+                    "string": "marcas de teléfonos inteligentes",
+                    "entity": "Q22645",
+                    "property": "P31"
+                },
+                {
+                    "language": "es",
+                    "string": "chino",
+                    "entity": "Q148",
+                    "property": "P17"
+                },
+                {
+                    "language": "es",
+                    "string": "origen",
+                    "property": "P176"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 76,
+            "question": [
+                {
+                    "string": "What contraindications are linked with drugs used in asthma treatment?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Qué contraindicaciones tienen los medicamentos utilizados en el tratamiento del asma?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "asthma",
+                    "entity": "Q35869"
+                },
+                {
+                    "language": "en",
+                    "string": "treatment",
+                    "property": "P2175"
+                },
+                {
+                    "language": "en",
+                    "string": "contraindications",
+                    "property": "P1909"
+                },
+                {
+                    "language": "en",
+                    "string": "drugs used",
+                    "property": "P769"
+                },
+                {
+                    "language": "es",
+                    "string": "asma",
+                    "entity": "Q35869"
+                },
+                {
+                    "language": "es",
+                    "string": "tratamiento",
+                    "property": "P2175"
+                },
+                {
+                    "language": "es",
+                    "string": "contraindicaciones",
+                    "property": "P1909"
+                },
+                {
+                    "language": "es",
+                    "string": "medicamentos utilizados",
+                    "property": "P769"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 77,
+            "question": [
+                {
+                    "string": "Which airlines operate the Boeing 747?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Qué aerolíneas operan el Boeing 747?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "airlines",
+                    "entity": "Q46970",
+                    "property": "P31"
+                },
+                {
+                    "language": "en",
+                    "string": "Boeing 747",
+                    "entity": "Q179"
+                },
+                {
+                    "language": "en",
+                    "string": "operate",
+                    "property": "P121"
+                },
+                {
+                    "language": "es",
+                    "string": "aerolíneas",
+                    "entity": "Q46970",
+                    "property": "P31"
+                },
+                {
+                    "language": "es",
+                    "string": "Boeing 747",
+                    "entity": "Q179"
+                },
+                {
+                    "language": "es",
+                    "string": "operan",
+                    "property": "P121"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 82,
+            "question": [
+                {
+                    "string": "What is the diameter of the Ngorongoro Crater?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Cuál es el diámetro del cráter del Ngorongoro?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "Ngorongoro Crater",
+                    "entity": "Q3002224"
+                },
+                {
+                    "language": "en",
+                    "string": "diameter",
+                    "property": "P2386"
+                },
+                {
+                    "language": "es",
+                    "string": "cráter del Ngorongoro",
+                    "entity": "Q3002224"
+                },
+                {
+                    "language": "es",
+                    "string": "diámetro",
+                    "property": "P2386"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 83,
+            "question": [
+                {
+                    "string": "Which films of Wong Kar Wai feature the cinematography of Christopher Doyle?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿En qué películas de Wong Kar Wai aparece la dirección de fotografía de Christopher Doyle?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "Wong Kar Wai",
+                    "entity": "Q55431"
+                },
+                {
+                    "language": "en",
+                    "string": "Christopher Doyle",
+                    "entity": "Q457890"
+                },
+                {
+                    "language": "en",
+                    "string": "films of",
+                    "property": "P57"
+                },
+                {
+                    "language": "en",
+                    "string": "cinematography",
+                    "property": "P344"
+                },
+                {
+                    "language": "en",
+                    "string": "films",
+                    "property": "P31",
+                    "entity": "Q11424"
+                },
+                {
+                    "language": "es",
+                    "string": "Wong Kar Wai",
+                    "entity": "Q55431"
+                },
+                {
+                    "language": "es",
+                    "string": "Christopher Doyle",
+                    "entity": "Q457890"
+                },
+                {
+                    "language": "es",
+                    "string": "películas de",
+                    "property": "P57"
+                },
+                {
+                    "language": "es",
+                    "string": "dirección de fotografía",
+                    "property": "P344"
+                },
+                {
+                    "language": "es",
+                    "string": "películas",
+                    "property": "P31",
+                    "entity": "Q11424"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 84,
+            "question": [
+                {
+                    "string": "When was the American Mathematical Society formed?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Cuándo se fundó la Sociedad Matemática Estadounidense?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "American Mathematical Society",
+                    "entity": "Q465654"
+                },
+                {
+                    "language": "en",
+                    "string": "formed",
+                    "property": "P571"
+                },
+                {
+                    "language": "es",
+                    "string": "Sociedad Matemática Estadounidense",
+                    "entity": "Q465654"
+                },
+                {
+                    "language": "es",
+                    "string": "fundó",
+                    "property": "P571"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 89,
+            "question": [
+                {
+                    "string": "Which hanja character has the highest stroke count?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Qué carácter hanja tiene el mayor número de trazos?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "hanja character",
+                    "entity": "Q17300291",
+                    "property": "P31"
+                },
+                {
+                    "language": "en",
+                    "string": "stroke count",
+                    "property": "P5205",
+                    "superlative": "max"
+                },
+                {
+                    "language": "es",
+                    "string": "carácter hanja",
+                    "entity": "Q17300291",
+                    "property": "P31"
+                },
+                {
+                    "language": "es",
+                    "string": "número de trazos",
+                    "property": "P5205",
+                    "superlative": "max"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 90,
+            "question": [
+                {
+                    "string": "Which African capital is at the highest altitude?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Qué capital africana se encuentra a mayor altitud?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "capital",
+                    "property": "P31",
+                    "entity": "Q5119"
+                },
+                {
+                    "language": "en",
+                    "string": "African",
+                    "entity": "Q15",
+                    "property": "P30"
+                },
+                {
+                    "language": "en",
+                    "string": "highest altitude",
+                    "property": "P2044",
+                    "superlative": "max"
+                },
+                {
+                    "language": "es",
+                    "string": "capital",
+                    "entity": "Q5119",
+                    "property": "P31"
+                },
+                {
+                    "language": "es",
+                    "string": "africana",
+                    "entity": "Q15",
+                    "property": "P30"
+                },
+                {
+                    "language": "es",
+                    "string": "mayor altitud",
+                    "property": "P2044",
+                    "superlative": "max"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 92,
+            "question": [
+                {
+                    "string": "What are the cultivars of Corylus heterophylla?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Cuáles son los cultivares de Corylus heterophylla?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "Corylus heterophylla",
+                    "entity": "Q124969"
+                },
+                {
+                    "language": "en",
+                    "string": "cultivar",
+                    "entity": "Q4886",
+                    "property": "P105"
+                },
+                {
+                    "language": "en",
+                    "string": "cultivar",
+                    "property": "P171",
+                    "inverse": true
+                },
+                {
+                    "language": "es",
+                    "string": "Corylus heterophylla",
+                    "entity": "Q124969"
+                },
+                {
+                    "language": "es",
+                    "string": "cultivares",
+                    "entity": "Q4886",
+                    "property": "P105"
+                },
+                {
+                    "language": "es",
+                    "string": "cultivares",
+                    "property": "P171",
+                    "inverse": true
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 93,
+            "question": [
+                {
+                    "string": "Which Tunisian daily newspapers are published in Arabic?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Qué diarios tunecinos se publican en árabe?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "Tunisian",
+                    "property": "P291",
+                    "entity": "Q948"
+                },
+                {
+                    "language": "en",
+                    "string": "Tunisian",
+                    "property": "P17",
+                    "entity": "Q948"
+                },
+                {
+                    "language": "en",
+                    "string": "daily newspapers",
+                    "property": "P31",
+                    "entity": "Q1110794"
+                },
+                {
+                    "language": "en",
+                    "string": "Arabic",
+                    "entity": "Q13955"
+                },
+                {
+                    "language": "en",
+                    "string": "published in",
+                    "property": "P407"
+                },
+                {
+                    "language": "es",
+                    "string": "tunecinos",
+                    "entity": "Q948",
+                    "property": "P291"
+                },
+                {
+                    "language": "es",
+                    "string": "tunecinos",
+                    "entity": "Q948",
+                    "property": "P17"
+                },
+                {
+                    "language": "es",
+                    "string": "diarios",
+                    "property": "P31",
+                    "entity": "Q1110794"
+                },
+                {
+                    "language": "es",
+                    "string": "árabe",
+                    "entity": "Q13955"
+                },
+                {
+                    "language": "es",
+                    "string": "publican en",
+                    "property": "P407"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 95,
+            "question": [
+                {
+                    "string": "Give me the coordinates of SD 24 Halmahera Barat.",
+                    "language": "en"
+                },
+                {
+                    "string": "Dame las coordenadas de SD 24 Halmahera Barat.",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "SD 24 Halmahera Barat",
+                    "entity": "Q124109402"
+                },
+                {
+                    "language": "en",
+                    "string": "coordinates",
+                    "property": "P625"
+                },
+                {
+                    "language": "es",
+                    "string": "SD 24 Halmahera Barat",
+                    "entity": "Q124109402"
+                },
+                {
+                    "language": "es",
+                    "string": "coordenadas",
+                    "property": "P625"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 96,
+            "question": [
+                {
+                    "string": "Which of the children of Juliane-Maximiliana, Gräfin Coob von Neyding was a Geheimrat?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Cuál de los hijos de Juliane-Maximiliana, Gräfin Coob von Neyding, fue Geheimrat?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "Juliane-Maximiliana, Gräfin Coob von Neyding",
+                    "entity": "Q110152103"
+                },
+                {
+                    "language": "en",
+                    "string": "children of",
+                    "property": "P40",
+                    "inverse": true
+                },
+                {
+                    "language": "en",
+                    "string": "Geheimrat",
+                    "property": "P39",
+                    "entity": "Q11165895"
+                },
+                {
+                    "language": "es",
+                    "string": "Juliane-Maximiliana, Gräfin Coob von Neyding",
+                    "entity": "Q110152103"
+                },
+                {
+                    "language": "es",
+                    "string": "hijos de",
+                    "property": "P40",
+                    "inverse": true
+                },
+                {
+                    "language": "es",
+                    "string": "Geheimrat",
+                    "entity": "Q11165895",
+                    "property": "P39"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 97,
+            "question": [
+                {
+                    "string": "How many kilometres long is the Czech road III/2634?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Cuántos kilómetros de longitud tiene la carretera checa III/2634?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "Czech road III/2634",
+                    "entity": "Q116903316"
+                },
+                {
+                    "language": "en",
+                    "string": "long",
+                    "property": "P2043"
+                },
+                {
+                    "language": "es",
+                    "string": "carretera checa III/2634",
+                    "entity": "Q116903316"
+                },
+                {
+                    "language": "es",
+                    "string": "longitud",
+                    "property": "P2043"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 98,
+            "question": [
+                {
+                    "string": "Which Italian Catholic priest was born in September 1822?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Qué sacerdote católico italiano nació en septiembre de 1822?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "Catholic priest",
+                    "property": "P106",
+                    "entity": "Q1469535"
+                },
+                {
+                    "language": "en",
+                    "string": "Italian",
+                    "entity": "Q38",
+                    "property": "P27"
+                },
+                {
+                    "language": "en",
+                    "string": "born in",
+                    "property": "P569"
+                },
+                {
+                    "language": "en",
+                    "string": "born in",
+                    "property": "P19"
+                },
+                {
+                    "language": "es",
+                    "string": "sacerdote católico",
+                    "entity": "Q1469535",
+                    "property": "P106"
+                },
+                {
+                    "language": "es",
+                    "string": "italiano",
+                    "entity": "Q38",
+                    "property": "P27"
+                },
+                {
+                    "language": "es",
+                    "string": "nació en",
+                    "property": "P569"
+                },
+                {
+                    "language": "es",
+                    "string": "nació en",
+                    "property": "P19"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 102,
+            "question": [
+                {
+                    "string": "Which music streaming websites are in the top 1000 of Alexa rankings?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Qué sitios web de streaming de música se encuentran entre los 1000 primeros del ranking de Alexa?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "music streaming websites",
+                    "property": "P31",
+                    "entity": "Q15590336"
+                },
+                {
+                    "language": "en",
+                    "string": "Alexa rankings",
+                    "property": "P1661"
+                },
+                {
+                    "language": "es",
+                    "string": "sitios web de streaming de música",
+                    "entity": "Q15590336",
+                    "property": "P31"
+                },
+                {
+                    "language": "es",
+                    "string": "ranking de Alexa",
+                    "property": "P1661"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 103,
+            "question": [
+                {
+                    "string": "Which Canadian islands are uninhabited?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Qué islas canadienses están deshabitadas?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "Canadian",
+                    "entity": "Q16",
+                    "property": "P17"
+                },
+                {
+                    "language": "en",
+                    "string": "islands",
+                    "entity": "Q23442",
+                    "property": "P31"
+                },
+                {
+                    "language": "en",
+                    "string": "uninhabited",
+                    "property": "P1082",
+                    "value": 0
+                },
+                {
+                    "language": "es",
+                    "string": "canadienses",
+                    "entity": "Q16",
+                    "property": "P17"
+                },
+                {
+                    "language": "es",
+                    "string": "islas",
+                    "entity": "Q23442",
+                    "property": "P31"
+                },
+                {
+                    "language": "es",
+                    "string": "deshabitadas",
+                    "property": "P1082",
+                    "value": 0
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 104,
+            "question": [
+                {
+                    "string": "Who is the chairperson of Plaid Cymru?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Quién es el presidente de Plaid Cymru?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "Plaid Cymru",
+                    "entity": "Q10691"
+                },
+                {
+                    "language": "en",
+                    "string": "chairperson",
+                    "property": "P488"
+                },
+                {
+                    "language": "es",
+                    "string": "Plaid Cymru",
+                    "entity": "Q10691"
+                },
+                {
+                    "language": "es",
+                    "string": "presidente",
+                    "property": "P488"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 105,
+            "question": [
+                {
+                    "string": "Which supermarket chains have more than one thousand stores?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Qué cadenas de supermercados tienen más de mil tiendas?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "supermarket chains",
+                    "property": "P31",
+                    "entity": "Q18043413"
+                },
+                {
+                    "language": "en",
+                    "string": "stores",
+                    "property": "P8368"
+                },
+                {
+                    "language": "es",
+                    "string": "cadenas de supermercados",
+                    "property": "P31",
+                    "entity": "Q18043413"
+                },
+                {
+                    "language": "es",
+                    "string": "tiendas",
+                    "property": "P8368"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 107,
+            "question": [
+                {
+                    "string": "Which Norwegian cliffs are more than 500 meters above sea level?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Qué acantilados noruegos superan los 500 metros sobre el nivel del mar?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "Norwegian",
+                    "property": "P17",
+                    "entity": "Q20"
+                },
+                {
+                    "language": "en",
+                    "string": "cliffs",
+                    "property": "P31",
+                    "entity": "Q107679"
+                },
+                {
+                    "language": "en",
+                    "string": "above sea level",
+                    "property": "P2044"
+                },
+                {
+                    "language": "es",
+                    "string": "noruegos",
+                    "entity": "Q20",
+                    "property": "P17"
+                },
+                {
+                    "language": "es",
+                    "string": "acantilados",
+                    "entity": "Q107679",
+                    "property": "P31"
+                },
+                {
+                    "language": "es",
+                    "string": "sobre el nivel del mar",
+                    "property": "P2044"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 108,
+            "question": [
+                {
+                    "string": "What dog breeds have the highest life expectancy?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Qué razas de perros tienen la mayor esperanza de vida?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "dog breeds",
+                    "property": "P31",
+                    "entity": "Q39367"
+                },
+                {
+                    "language": "en",
+                    "string": "highest life expectancy",
+                    "property": "P2250",
+                    "superlative": "max"
+                },
+                {
+                    "language": "es",
+                    "string": "razas de perros",
+                    "entity": "Q39367",
+                    "property": "P31"
+                },
+                {
+                    "language": "es",
+                    "string": "mayor esperanza de vida",
+                    "property": "P2250",
+                    "superlative": "max"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 111,
+            "question": [
+                {
+                    "string": "Is Turkey located on the Dead Sea?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Se encuentra Turquía a orillas del Mar Muerto?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "located on",
+                    "property": "P206"
+                },
+                {
+                    "language": "en",
+                    "string": "Turkey",
+                    "entity": "Q43"
+                },
+                {
+                    "language": "en",
+                    "string": "Dead Sea",
+                    "entity": "Q23883"
+                },
+                {
+                    "language": "es",
+                    "string": "a orillas del",
+                    "property": "P206"
+                },
+                {
+                    "language": "es",
+                    "string": "Turquía",
+                    "entity": "Q43"
+                },
+                {
+                    "language": "es",
+                    "string": "Mar Muerto",
+                    "entity": "Q23883"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 113,
+            "question": [
+                {
+                    "string": "Who was the first overall pick of the 2005 NHL entry draft?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Quién fue la primera selección general del draft de la NHL de 2005?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "2005 NHL entry draft",
+                    "entity": "Q127434"
+                },
+                {
+                    "language": "en",
+                    "string": "first overall pick",
+                    "property": "P3831",
+                    "entity": "Q43633947"
+                },
+                {
+                    "language": "es",
+                    "string": "draft de la NHL de 2005",
+                    "entity": "Q127434"
+                },
+                {
+                    "language": "es",
+                    "string": "primera selección general",
+                    "entity": "Q43633947",
+                    "property": "P3831"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 114,
+            "question": [
+                {
+                    "string": "Who are the taxon authors of Alxasaurus?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Quiénes son los autores del taxón Alxasaurus?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "Alxasaurus",
+                    "entity": "Q311286"
+                },
+                {
+                    "language": "en",
+                    "string": "taxon authors",
+                    "property": "P405"
+                },
+                {
+                    "language": "es",
+                    "string": "Alxasaurus",
+                    "entity": "Q311286"
+                },
+                {
+                    "language": "es",
+                    "string": "autores del taxón",
+                    "property": "P405"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 115,
+            "question": [
+                {
+                    "string": "What churches are in the Lutheran Diocese of Oulu?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Qué iglesias hay en la Diócesis Luterana de Oulu?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "churches",
+                    "property": "P31",
+                    "entity": "Q16970"
+                },
+                {
+                    "language": "en",
+                    "string": "Lutheran Diocese of Oulu",
+                    "entity": "Q873680"
+                },
+                {
+                    "language": "en",
+                    "string": "Diocese",
+                    "property": "P708"
+                },
+                {
+                    "language": "es",
+                    "string": "iglesias",
+                    "property": "P31",
+                    "entity": "Q16970"
+                },
+                {
+                    "language": "es",
+                    "string": "Diócesis Luterana de Oulu",
+                    "entity": "Q873680"
+                },
+                {
+                    "language": "es",
+                    "string": "Diócesis",
+                    "property": "P708"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 117,
+            "question": [
+                {
+                    "string": "Which province is Batman the capital of?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿De qué provincia es capital Batman?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "Batman",
+                    "entity": "Q159835"
+                },
+                {
+                    "language": "en",
+                    "string": "province",
+                    "entity": "Q34876",
+                    "property": "P31"
+                },
+                {
+                    "language": "en",
+                    "string": "capital",
+                    "property": "P36"
+                },
+                {
+                    "language": "en",
+                    "string": "capital of",
+                    "property": "P1376",
+                    "inverse": true
+                },
+                {
+                    "language": "es",
+                    "string": "Batman",
+                    "entity": "Q159835"
+                },
+                {
+                    "language": "es",
+                    "string": "provincia",
+                    "entity": "Q34876",
+                    "property": "P31"
+                },
+                {
+                    "language": "es",
+                    "string": "capital",
+                    "property": "P36"
+                },
+                {
+                    "language": "es",
+                    "string": "capital",
+                    "property": "P1376",
+                    "inverse": true
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 118,
+            "question": [
+                {
+                    "string": "What is the fruit color of Lasianthus?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Cuál es el color del fruto del Lasianthus?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "Lasianthus",
+                    "entity": "Q3238493"
+                },
+                {
+                    "language": "en",
+                    "string": "fruit color",
+                    "property": "P11220"
+                },
+                {
+                    "language": "es",
+                    "string": "Lasianthus",
+                    "entity": "Q3238493"
+                },
+                {
+                    "language": "es",
+                    "string": "color del fruto",
+                    "property": "P11220"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 119,
+            "question": [
+                {
+                    "string": "Who died in the year Bruce Lee died?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Quién murió el mismo año que Bruce Lee?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "Bruce Lee",
+                    "entity": "Q16397"
+                },
+                {
+                    "language": "en",
+                    "string": "died",
+                    "property": "P570"
+                },
+                {
+                    "language": "es",
+                    "string": "Bruce Lee",
+                    "entity": "Q16397"
+                },
+                {
+                    "language": "es",
+                    "string": "murió",
+                    "property": "P570"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 121,
+            "question": [
+                {
+                    "string": "What is the Erdős number of Angela Merkel?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Cuál es el número de Erdős de Angela Merkel?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "Erdős number",
+                    "property": "P2021"
+                },
+                {
+                    "language": "en",
+                    "string": "Angela Merkel",
+                    "entity": "Q567"
+                },
+                {
+                    "language": "es",
+                    "string": "número de Erdős",
+                    "property": "P2021"
+                },
+                {
+                    "language": "es",
+                    "string": "Angela Merkel",
+                    "entity": "Q567"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 124,
+            "question": [
+                {
+                    "string": "Who has an Erdős number equal to the number of ancient world wonders?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Quién tiene un número de Erdős igual al número de maravillas del mundo antiguo?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "ancient world wonders",
+                    "entity": "Q66108498",
+                    "property": "P31"
+                },
+                {
+                    "language": "en",
+                    "string": "Erdős number",
+                    "property": "P2021"
+                },
+                {
+                    "language": "es",
+                    "string": "maravillas del mundo antiguo",
+                    "entity": "Q66108498",
+                    "property": "P31"
+                },
+                {
+                    "language": "es",
+                    "string": "número de Erdős",
+                    "property": "P2021"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 125,
+            "question": [
+                {
+                    "string": "Which drawings by Fredrik Bødtker are located in Oslo?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Qué dibujos de Fredrik Bødtker se encuentran en Oslo?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "Fredrik Bødtker",
+                    "entity": "Q17119629"
+                },
+                {
+                    "language": "en",
+                    "string": "by",
+                    "property": "P170"
+                },
+                {
+                    "language": "en",
+                    "string": "located",
+                    "property": "P276"
+                },
+                {
+                    "language": "en",
+                    "string": "Oslo",
+                    "entity": "Q585"
+                },
+                {
+                    "language": "en",
+                    "string": "drawings",
+                    "property": "P31",
+                    "entity": "Q93184"
+                },
+                {
+                    "language": "es",
+                    "string": "Fredrik Bødtker",
+                    "entity": "Q17119629"
+                },
+                {
+                    "language": "es",
+                    "string": "de",
+                    "property": "P170"
+                },
+                {
+                    "language": "es",
+                    "string": "se encuentran en",
+                    "property": "P276"
+                },
+                {
+                    "language": "es",
+                    "string": "Oslo",
+                    "entity": "Q585"
+                },
+                {
+                    "language": "es",
+                    "string": "dibujos",
+                    "property": "P31",
+                    "entity": "Q93184"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 129,
+            "question": [
+                {
+                    "string": "Which German cities are served by rapid transport systems?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Qué ciudades alemanas cuentan con sistemas de transporte rápido?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "German",
+                    "entity": "Q183",
+                    "property": "P17"
+                },
+                {
+                    "language": "en",
+                    "string": "cities",
+                    "entity": "Q515"
+                },
+                {
+                    "language": "en",
+                    "string": "served by",
+                    "property": "P131"
+                },
+                {
+                    "language": "en",
+                    "string": "rapid transport systems",
+                    "entity": "Q5503",
+                    "property": "P31"
+                },
+                {
+                    "language": "es",
+                    "string": "alemanas",
+                    "entity": "Q183",
+                    "property": "P17"
+                },
+                {
+                    "language": "es",
+                    "string": "ciudades",
+                    "entity": "Q515"
+                },
+                {
+                    "language": "es",
+                    "string": "cuentan con",
+                    "property": "P131"
+                },
+                {
+                    "language": "es",
+                    "string": "sistemas de transporte rápido",
+                    "entity": "Q5503",
+                    "property": "P31"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 130,
+            "question": [
+                {
+                    "string": "Is Panappetty located in Kerala?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Está Panappetty ubicada en Kerala?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "Panappetty",
+                    "entity": "Q101139375"
+                },
+                {
+                    "language": "en",
+                    "string": "Kerala",
+                    "entity": "Q1186"
+                },
+                {
+                    "language": "en",
+                    "string": "located in",
+                    "property": "P131"
+                },
+                {
+                    "language": "es",
+                    "string": "Panappetty",
+                    "entity": "Q101139375"
+                },
+                {
+                    "language": "es",
+                    "string": "Kerala",
+                    "entity": "Q1186"
+                },
+                {
+                    "language": "es",
+                    "string": "ubicada en",
+                    "property": "P131"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 132,
+            "question": [
+                {
+                    "string": "Give me all drainage basins of fountains in Santiago-Pontones?",
+                    "language": "en"
+                },
+                {
+                    "string": "Dame todas las cuencas hidrográficas de las fuentes de Santiago-Pontones.",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "Santiago-Pontones",
+                    "entity": "Q1645091"
+                },
+                {
+                    "language": "en",
+                    "string": "fountains",
+                    "property": "P31",
+                    "entity": "Q483453"
+                },
+                {
+                    "language": "en",
+                    "string": "drainage basins",
+                    "property": "P4614"
+                },
+                {
+                    "language": "en",
+                    "string": "in",
+                    "property": "P131"
+                },
+                {
+                    "language": "es",
+                    "string": "Santiago-Pontones",
+                    "entity": "Q1645091"
+                },
+                {
+                    "language": "es",
+                    "string": "fuentes",
+                    "property": "P31",
+                    "entity": "Q483453"
+                },
+                {
+                    "language": "es",
+                    "string": "cuencas hidrográficas",
+                    "property": "P4614"
+                },
+                {
+                    "language": "es",
+                    "string": "de",
+                    "property": "P131"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 134,
+            "question": [
+                {
+                    "string": "Which paintings have more than ten creators?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Qué pinturas tienen más de diez creadores?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "paintings",
+                    "property": "P31",
+                    "entity": "Q3305213"
+                },
+                {
+                    "language": "en",
+                    "string": "creators",
+                    "property": "P170"
+                },
+                {
+                    "language": "es",
+                    "string": "pinturas",
+                    "property": "P31",
+                    "entity": "Q3305213"
+                },
+                {
+                    "language": "es",
+                    "string": "creadores",
+                    "property": "P170"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 136,
+            "question": [
+                {
+                    "string": "Which Catholic cathedrals in the UK were established before 1841?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Qué catedrales católicas del Reino Unido se fundaron antes de 1841?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "Catholic cathedrals",
+                    "entity": "Q56242215",
+                    "property": "P31"
+                },
+                {
+                    "language": "en",
+                    "string": "UK",
+                    "property": "P17",
+                    "entity": "Q145"
+                },
+                {
+                    "language": "en",
+                    "string": "established",
+                    "property": "P571"
+                },
+                {
+                    "language": "es",
+                    "string": "catedrales católicas",
+                    "entity": "Q56242215",
+                    "property": "P31"
+                },
+                {
+                    "language": "es",
+                    "string": "Reino Unido",
+                    "entity": "Q145",
+                    "property": "P17"
+                },
+                {
+                    "language": "es",
+                    "string": "fundaron",
+                    "property": "P571"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 140,
+            "question": [
+                {
+                    "string": "How many works composed by Verdi debuted at the Teatro La Fenice?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Cuántas obras compuestas por Verdi se estrenaron en el Teatro La Fenice?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "Verdi",
+                    "entity": "Q7317"
+                },
+                {
+                    "language": "en",
+                    "string": "Teatro La Fenice",
+                    "entity": "Q223942"
+                },
+                {
+                    "language": "en",
+                    "string": "debuted",
+                    "property": "P4647"
+                },
+                {
+                    "language": "en",
+                    "string": "composed by",
+                    "property": "P86"
+                },
+                {
+                    "language": "es",
+                    "string": "Verdi",
+                    "entity": "Q7317"
+                },
+                {
+                    "language": "es",
+                    "string": "Teatro La Fenice",
+                    "entity": "Q223942"
+                },
+                {
+                    "language": "es",
+                    "string": "se estrenaron",
+                    "property": "P4647"
+                },
+                {
+                    "language": "es",
+                    "string": "compuestas por",
+                    "property": "P86"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 143,
+            "question": [
+                {
+                    "string": "Who was the last surviving World War I veteran?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Quién fue el último veterano superviviente de la Primera Guerra Mundial?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "World War I",
+                    "entity": "Q361"
+                },
+                {
+                    "language": "en",
+                    "string": "veteran",
+                    "entity": "Q193891",
+                    "property": "P31"
+                },
+                {
+                    "language": "en",
+                    "string": "World War I veteran",
+                    "entity": "Q111654903"
+                },
+                {
+                    "language": "en",
+                    "string": "last surviving",
+                    "property": "P570",
+                    "superlative": "max"
+                },
+                {
+                    "language": "en",
+                    "string": "World War I veteran",
+                    "property": "P607",
+                    "entity": "Q361"
+                },
+                {
+                    "language": "en",
+                    "string": "War",
+                    "entity": "Q198"
+                },
+                {
+                    "language": "en",
+                    "string": "World War",
+                    "entity": "Q103495"
+                },
+                {
+                    "language": "es",
+                    "string": "Primera Guerra Mundial",
+                    "entity": "Q361"
+                },
+                {
+                    "language": "es",
+                    "string": "veterano",
+                    "entity": "Q193891",
+                    "property": "P31"
+                },
+                {
+                    "language": "es",
+                    "string": "veterano * de la Primera Guerra Mundial",
+                    "entity": "Q111654903"
+                },
+                {
+                    "language": "es",
+                    "string": "último * superviviente",
+                    "property": "P570",
+                    "superlative": "max"
+                },
+                {
+                    "language": "es",
+                    "string": "veterano * de la Primera Guerra Mundial",
+                    "entity": "Q361",
+                    "property": "P607"
+                },
+                {
+                    "language": "es",
+                    "string": "Guerra",
+                    "entity": "Q198"
+                },
+                {
+                    "language": "es",
+                    "string": "Guerra Mundial",
+                    "entity": "Q103495"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        },
+        {
+            "id": 144,
+            "question": [
+                {
+                    "string": "Which Finnish airlines are now defunct?",
+                    "language": "en"
+                },
+                {
+                    "string": "¿Qué aerolíneas finlandesas se han disuelto?",
+                    "language": "es"
+                }
+            ],
+            "query": {
+                "sparql": "Optional, preferably add your SPARQL query here if your approach generates one."
+            },
+            "mentions": [
+                {
+                    "language": "en",
+                    "string": "airlines",
+                    "property": "P31",
+                    "entity": "Q46970"
+                },
+                {
+                    "language": "en",
+                    "string": "Finnish",
+                    "property": "P17",
+                    "entity": "Q33"
+                },
+                {
+                    "language": "en",
+                    "string": "defunct",
+                    "property": "P576",
+                    "quantifier": "exists"
+                },
+                {
+                    "language": "es",
+                    "string": "aerolíneas",
+                    "entity": "Q46970",
+                    "property": "P31"
+                },
+                {
+                    "language": "es",
+                    "string": "finlandesas",
+                    "entity": "Q33",
+                    "property": "P17"
+                },
+                {
+                    "language": "es",
+                    "string": "se han disuelto",
+                    "property": "P576",
+                    "quantifier": "exists"
+                }
+            ],
+            "answers": [
+                "Mandatory, fill here with results from the challenge endpoint or Wikidata dump provided at the challenge website."
+            ]
+        }
+    ]
+}
